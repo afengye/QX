@@ -6,7 +6,7 @@
 使用声明：️仅供学习交流, 🈲️商业用途
 *******************************
 [rewrite_local]
-^https:\/\/mobile-ios-wallpaper-api\.zhhainiao\.com\/v1\/user\/info url script-response-body 
+^https:\/\/mobile-ios-wallpaper-api\.zhhainiao\.com\/v1\/user\/info url script-response-body https://raw.githubusercontent.com/afengye/QX/main/yqzm.js
 [mitm] 
 hostname = mobile-ios-wallpaper-api.zhhainiao.com
 *******************************/
