@@ -6,7 +6,7 @@
 使用声明：️仅供学习交流, 🈲️商业用途
 *******************************
 [rewrite_local]
-^https:\/\/api\.ieasou\.com\/api\/bookapp\/balance\.m url script-response-body https://raw.githubusercontent.com/afengye/QX/main/yqzm.js
+^https:\/\/api\.ieasou\.com\/api\/bookapp\/balance\.m url script-response-body https://raw.githubusercontent.com/afengye/QX/main/yisou.js
 [mitm] 
 hostname = mobile-ios-wallpaper-api.zhhainiao.com
 *******************************/
