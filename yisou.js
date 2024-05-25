@@ -13,13 +13,6 @@ hostname = mobile-ios-wallpaper-api.zhhainiao.com
 
 var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
-var vipInfo = {
-    "vip" : true,
-    "vipStatus" : 1,
-    "uid" : 1007353416,
-    "autoTime" : 0,
-    "expireTime" : 0
-}
-obj.vipInfo = [vipInfo];
+obj.vipInfo.vip= true, obj.vipInfo.vipStatus = 1;
 aFengYe = JSON.stringify(obj);
 $done(aFengYe);
