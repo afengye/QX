@@ -19,6 +19,6 @@ var vipInfo = {
   "vipExpire": 4072625440
 }
 
-obj.body.userInfo.vipInf = vipInfo,  obj.body.userInfo.unlockVipInfo = vipInfo;
+obj.body.userInfo.vipInfo = vipInfo,  obj.body.userInfo.unlockVipInfo = vipInfo;
 aFengYe = JSON.stringify(obj);
 $done(aFengYe);
