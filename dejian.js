@@ -13,6 +13,6 @@ hostname = dj.palmestore.com
 
 var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
-obj.body.userInfo.vipInfo.vipType = obj.body.userInfo.unlockVipInfo.vipType = 1;
+obj.body.userInfo.vipInfo.vipType = 1,  obj.body.userInfo.unlockVipInfo.vipType = 1;
 aFengYe = JSON.stringify(obj);
 $done(aFengYe);
