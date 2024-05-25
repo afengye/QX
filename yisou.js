@@ -20,6 +20,6 @@ var vipInfo = {
     "autoTime" : 0,
     "expireTime" : 0
 }
-obj.user_info.vipInfo = [vipInfo];
+obj.vipInfo = [vipInfo];
 aFengYe = JSON.stringify(obj);
 $done(aFengYe);
