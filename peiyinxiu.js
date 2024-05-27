@@ -19,11 +19,12 @@ if($request.url.indexOf("/GetMyInfo") != -1){
     obj.data.vipLevel = 2;
     obj.data.vip_end_time = 4070886812;
     obj.data.vipEventText = "afengye";
-} else if ($request.url.indexOf("/GetVipDetail") != -1) {
+}
+
+if ($request.url.indexOf("/GetVipDetail") != -1) {
     obj.data.is_vip = 1;
     obj.data.vipLevel = 2;
     obj.data.end_time = 4070886812;
 }
-
 aFengYe = JSON.stringify(obj);
 $done(aFengYe);
