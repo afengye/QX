@@ -31,5 +31,10 @@ if ($request.url.indexOf("/Api/User/GetTools") != -1) {
     obj.data.vipLevel = 1;
 }
 
+if ($request.url.indexOf("/Api/User/SetTool") != -1) {
+    obj.data.msg = "设置成功";
+    obj.data.code = 0;
+}
+
 aFengYe = JSON.stringify(obj);
 $done(aFengYe);
