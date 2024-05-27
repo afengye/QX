@@ -26,5 +26,10 @@ if ($request.url.indexOf("/Api/user/GetVipDetail") != -1) {
     obj.data.vipLevel = 1;
     obj.data.end_time = 4070886812;
 }
+
+if ($request.url.indexOf("/Api/User/GetTools") != -1) {
+    obj.data.vipLevel = 1;
+}
+
 aFengYe = JSON.stringify(obj);
 $done(aFengYe);
