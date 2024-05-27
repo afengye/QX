@@ -6,8 +6,7 @@
 使用声明：️仅供学习交流, 🈲️商业用途
 *******************************
 [rewrite_local]
-^https:\/\/iosapi\.peiyinxiu\.com\/Api\/user\/GetMyInfo url script-response-body https://raw.githubusercontent.com/afengye/QX/main/peiyinxiu.js
-^https:\/\/iosapi\.peiyinxiu\.com\/api\/User\/GetVipDetail url script-response-body https://raw.githubusercontent.com/afengye/QX/main/peiyinxiu.js
+^https:\/\/iosapi\.peiyinxiu\.com\/ url script-response-body https://raw.githubusercontent.com/afengye/QX/main/peiyinxiu.js
 [mitm] 
 hostname = iosapi.peiyinxiu.com
 *******************************/
@@ -15,17 +14,16 @@ hostname = iosapi.peiyinxiu.com
 var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
-if($request.url.indexOf("/GetMyInfo") != -1 ){
+if($request.url.indexOf("/GetMyInfo") != -1){
     obj.data.is_vip = 1;
     obj.data.vipLevel = 1;
     obj.data.vip_end_time = 4070886812;
-    obj.dadt.vipEventText = "afengye";
-} else if ($request.url.indexOf("/GetVipDetail") != -1 ) {
+    obj.data.vipEventText = "afengye";
+} else if ($request.url.indexOf("/GetVipDetail") != -1) {
     obj.data.is_vip = 1;
     obj.data.vipLevel = 1;
     obj.data.end_time = 4070886812;
 }
-
 
 aFengYe = JSON.stringify(obj);
 $done(aFengYe);
