@@ -14,9 +14,9 @@ hostname = api.risingfalling.com
 var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
-obj.data.vipType = "VIP";
-obj.data.isVip = true;
-obj.data.onceForAll = true;
+obj.body.vipType = "VIP";
+obj.body.isVip = true;
+obj.body.onceForAll = true;
 
 aFengYe = JSON.stringify(obj);
 $done(aFengYe);
