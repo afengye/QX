@@ -14,24 +14,24 @@ hostname = iosapi.peiyinxiu.com
 var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
-if($request.url.indexOf("/Api/user/GetMyInfo") != -1){
+if($request.url.indexOf("/GetMyInfo") != -1){
     obj.data.is_vip = 1;
     obj.data.vipLevel = 1;
     obj.data.vip_end_time = 4070886812;
     obj.data.vipEventText = "afengye";
 }
 
-if ($request.url.indexOf("/Api/user/GetVipDetail") != -1) {
+if ($request.url.indexOf("/GetVipDetail") != -1) {
     obj.data.is_vip = 1;
     obj.data.vipLevel = 1;
     obj.data.end_time = 4070886812;
 }
 
-if ($request.url.indexOf("/Api/User/GetTools") != -1) {
+if ($request.url.indexOf("/GetTools") != -1) {
     obj.data.vipLevel = 1;
 }
 
-if ($request.url.indexOf("/Api/User/SetTool") != -1) {
+if ($request.url.indexOf("/SetTool") != -1) {
     obj.data.msg = "设置成功";
     obj.data.code = 0;
 }
