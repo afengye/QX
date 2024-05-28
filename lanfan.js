@@ -22,6 +22,10 @@ if($request.url.indexOf("/api/v1/user/prime.json") != -1) {
     "expires_time" : "2099-01-01 00:00:00"
   };
 }
+if($request.url.indexOf("/api/v1/user/page_detail.json") != -1) {
+  obj.content.user.name = "afengye";
+  obj.content.user.is_prime = true;
+}
 
 aFengYe = JSON.stringify(obj);
 $done(aFengYe);
