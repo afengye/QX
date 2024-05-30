@@ -16,13 +16,14 @@ var obj =  JSON.parse(aFengYe);
 
 if($request.url.indexOf("/wordsapp/vip/user_item/status") != -1) {
     obj = {
-      "status" : "VIP",
+      "status" : "WORDS_VIP",
       "is_big_member" : true
     };
 }
 if ($request.url.indexOf("/bayuser/user") != -1) {
     obj.nickname = "afengye";
     obj.is_staff = 1;
+    obj.is_in_audit = 1;
 }
 
 aFengYe = JSON.stringify(obj);
