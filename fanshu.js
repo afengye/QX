@@ -1,12 +1,12 @@
 /******************************
-脚本功能：白猫-登陆后解锁会员
+脚本功能：番薯小说阅读器-登陆后解锁会员
 脚本作者：afengye
 脚本频道：https://t.me/afengye
 更新时间：2024-05-31
 使用声明：️仅供学习交流, 🈲️商业用途
 *******************************
 [rewrite_local]
-^https:\/\/baimiao\.uzero\.cn\/ url script-response-body https://raw.githubusercontent.com/afengye/QX/main/baimao.js
+^https:\/\/g20\.manmeng168\.com\/ url script-response-body https://raw.githubusercontent.com/afengye/QX/main/fanshu.js
 [mitm] 
 hostname = baimiao.uzero.cn
 *******************************/
@@ -14,9 +14,11 @@ hostname = baimiao.uzero.cn
 var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
-if($request.url.indexOf("/api/v2.user/appLaunchWithUser") != -1) {
-    obj.value.nickname = "afengye";
-    obj.value.vip = 1;
+if($request.url.indexOf("/v1/client/user/completeUserInfo") != -1) {
+    obj.data.nick = "afengye";
+    obj.data.vip = true;
+    obj.data.vip_start_time = 1717074752;
+    obj.data.vip_end_time = 4083829946;
 }
 
 aFengYe = JSON.stringify(obj);
