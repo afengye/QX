@@ -16,6 +16,8 @@ var obj =  JSON.parse(aFengYe);
 
 if($request.url.indexOf("/inner4/ilisten/user/user:get") != -1) {
     obj.data.nickname = "afengye";
+    obj.data.is_buy = true;
+    obj.data.is_forever_vip = 1;
     obj.data.vip = 1;
     obj.data.vip_create_ts = "2024-06-01T00:00:00Z";
     obj.data.vip_valid_ts = "2099-06-01T00:00:00Z";
