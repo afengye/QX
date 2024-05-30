@@ -20,6 +20,10 @@ if($request.url.indexOf("/wordsapp/vip/user_item/status") != -1) {
       "is_big_member" : true
     };
 }
+if ($request.url.indexOf("/bayuser/user") != -1) {
+    obj.nickname = "afengye";
+    obj.is_staff = 1;
+}
 
 aFengYe = JSON.stringify(obj);
 $done(aFengYe);
