@@ -8,7 +8,7 @@
 [rewrite_local]
 ^https:\/\/g20\.manmeng168\.com\/ url script-response-body https://raw.githubusercontent.com/afengye/QX/main/fanshu.js
 [mitm] 
-hostname = baimiao.uzero.cn
+hostname = g20.manmeng168.com
 *******************************/
 
 var aFengYe = $response.body;
