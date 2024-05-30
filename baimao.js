@@ -16,7 +16,7 @@ var obj =  JSON.parse(aFengYe);
 
 if($request.url.indexOf("/api/v2.user/appLaunchWithUser") != -1) {
     obj.value.nickname = "afengye";
-    obj.value.vip = true;
+    obj.value.vip = 1;
 }
 
 aFengYe = JSON.stringify(obj);
