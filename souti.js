@@ -17,7 +17,6 @@ var obj =  JSON.parse(aFengYe);
 if($request.url.indexOf("/app/account/getAccountInfo") != -1) {
     obj.result.type = "VIP";
     obj.result.freeFlag = "YES";
-    obj.result.nickname = "afengye"; 
     obj.result.vipExpireDays = 99999999999;
     obj.result.vipExpireTime = "2999-06-03 19:44:48";
     obj.result.vipGroupInfos = [
