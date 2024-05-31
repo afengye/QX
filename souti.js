@@ -18,7 +18,7 @@ if($request.url.indexOf("/app/account/getAccountInfo") != -1) {
     obj.result.type = "VIP";
     obj.result.freeFlag = "YES";
     obj.result.vipExpireDays = 99999999999;
-    obj.result.vipExpireTime = "2999-06-03 19:44:48";
+    obj.result.vipExpireTime = "2999-01-01 00:00:00";
     obj.result.vipGroupInfos = [
        {
         "groupType" : "TYPE_ONE",
