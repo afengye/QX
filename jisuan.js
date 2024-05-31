@@ -15,10 +15,13 @@ var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
 if($request.url.indexOf("/calculator/user/profile") != -1) {
-      "startTime": 1717167110,
-      "state": 1,
-      "forever": true,
-      "expireTime": 32472115200
+      obj.data.vipState = {
+            "startTime": 1717167110,
+            "state": 1,
+            "forever": false,
+            "expireTime": 32472115200
+      }
+      
 }
 
 aFengYe = JSON.stringify(obj);
