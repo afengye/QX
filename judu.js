@@ -14,7 +14,7 @@ hostname = judouapp.com
 var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
-if($request.url.indexOf("/api/v2/mine/profile") != -1) {
+if($request.url.indexOf("/api/v2/mine/profile") != -1 || $request.url.indexOf("/api/v2/users/wechat") != -1) {
     obj.is_member = true;
     obj.is_year_member = true;
     obj.nickname = "afengye";
