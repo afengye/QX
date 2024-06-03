@@ -18,7 +18,7 @@ if($request.url.indexOf("/api/v2/mine/profile") != -1 || $request.url.indexOf("/
     obj.is_member = true;
     obj.is_year_member = true;
     obj.nickname = "afengye";
-    obj.member_expired_at = 30118658071;
+    obj.member_expired_at = 32472115200;
 }
 
 aFengYe = JSON.stringify(obj);
