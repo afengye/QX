@@ -23,8 +23,8 @@ if($request.url.indexOf("/h2/user/getUserInfo") != -1) {
     obj.result.now_sport = obj.result.excellent = obj.result.tapping = obj.result.training_camp = obj.result.wooden_fish = obj.result.book = obj.result.yoga = vipInfo;
     obj.result.now_vip.is_forever = true;
     obj.result.now_vip.is_vip = true;
-    obj.result.expire_time = 32472115200;
-    obj.result.expire_notice = "您当前已经是Now会员";
+    obj.result.now_vip.expire_time = 32472115200;
+    obj.result.now_vip.expire_notice = "您当前已经是Now会员";
     obj.result.nickname = "afengye";
 }
 
