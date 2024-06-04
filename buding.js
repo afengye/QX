@@ -17,7 +17,7 @@ var obj =  JSON.parse(aFengYe);
 if($request.url.indexOf("/userApi/saveUser") != -1) {
     obj.data.freeFlag = obj.data.newVipStatus = obj.data.vipStatus = 1;
     obj.data.endTime = 32472115200;
-    obj.data.expireDate = 32472115200;
+    obj.data.expireDate = "2999-01-01 00:00:00";
 }
 
 aFengYe = JSON.stringify(obj);
