@@ -14,7 +14,7 @@ hostname = lc.i7play.com
 var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
-if($request.url.indexOf("/1.1/users") != -1) {
+if($request.url.indexOf("/1.1/users") != -1 || $request.url.indexOf("/1.1/classes/_User/") != -1) {
     obj.username = "afengye";
     obj.isVip = true;
 }
