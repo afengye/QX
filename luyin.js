@@ -15,6 +15,7 @@ var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
 if($request.url.indexOf("/api/user") != -1) {
+    obj.data.phone = "afengye";
     obj.data.vip_expiry_date = "2999-01-01 00:00:00";
 }
 
