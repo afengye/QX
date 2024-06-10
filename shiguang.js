@@ -18,10 +18,5 @@ if($request.url.indexOf("/memcenterlk/member/firstpage.do") != -1) {
     obj.data.vip = true;
 }
 
-
-if($request.url.indexOf("/diary/vip/mem") != -1) {
-    obj.data = "DU5rLTXu2oHwls2k+KiXj+pBYSZcM0qVoiL5OByGN0PJlcgR4udbb4CfLNAl54qbKlW1Zx9DBZhUucaNSgd70ui+qfriswv5Nf/Htb8AqYKiZDYgPpK2DFHgKljlZtYqMyRYNPH9TtXihDf5rwk1aseSrlUhpp93bkaeAYCat45buo3lTm24fPNv3vYHaDcYlXczjtpUkXMlUD989w7ml+Ug8lcd2ckq5SHQZLFn/626gNwpdK7diiOFl1yCnZjqZ5F45ZIIZyxKtqcxCSv8xc/zgmMVt7ussW3bqgSKWXo3bgvpXN7BMXgNHwbYaEAOBLFJczmePPNtW3MJqQEJQLV1BZQAmtwHIHQ2Trg6Rs3AQ1CVDBTBwI6tOVlDd0CApR2oDfcfh+k+nUWq+F9q8g==";
-}
-
 aFengYe = JSON.stringify(obj);
 $done(aFengYe);
