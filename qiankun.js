@@ -18,7 +18,7 @@ if($request.url.indexOf("/api/Account/GetUserInfo") != -1) {
     obj.data.nickName = "afengye";
     obj.data.isVip = true;
     obj.data.vipValidTime = "2999-01-01";
-    obj.data.memberLevel = 1;
+    obj.data.memberLevel = 4;
 }
 
 aFengYe = JSON.stringify(obj);
