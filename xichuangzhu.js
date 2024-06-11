@@ -14,7 +14,7 @@ hostname = lchttpapi.xczim.com
 var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
-if($request.url.indexOf("/1.1/users/me") != -1) {
+if($request.url.indexOf("/1.1/users") != -1) {
     obj.username = "afengye";
     obj.isAdmin = obj.membership = obj.premiumMembership = obj.lifetimeMembership = true;
 }
