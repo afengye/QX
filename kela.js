@@ -17,7 +17,7 @@ var obj =  JSON.parse(aFengYe);
 if($request.url.indexOf("/clarity/api/userInfo") != -1) {
     obj.data.expireTime = 32472115200;
     obj.data.level = 5;
-    obj.data.userName = "afengye";
+    obj.data.nickName = "afengye";
 }
 
 aFengYe = JSON.stringify(obj);
