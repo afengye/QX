@@ -17,6 +17,10 @@ var obj =  JSON.parse(aFengYe);
 if($request.url.indexOf("/app/user/userInfo") != -1) {
     obj.data.nickname = "afengye";
 }
+if($request.url.indexOf("/app/vip/status") != -1) {
+    obj.data.status = 1;
+    obj.data.endTime = "2999-01-01";
+}
 
 aFengYe = JSON.stringify(obj);
 $done(aFengYe);
