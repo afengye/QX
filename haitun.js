@@ -6,7 +6,7 @@
 使用声明：️仅供学习交流, 🈲️商业用途
 *******************************
 [rewrite_local]
-^https://book.haitunwallet.com/ url script-response-body https://raw.githubusercontent.com/afengye/QX/main/haitun.js
+^https:\/\/book\.haitunwallet\.com\/ url script-response-body https://raw.githubusercontent.com/afengye/QX/main/haitun.js
 [mitm] 
 hostname = book.haitunwallet.com
 *******************************/
