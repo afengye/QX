@@ -24,11 +24,9 @@ if($request.url.indexOf("/app/vip/status") != -1) {
 }
 
 if($request.url.indexOf("/app/account/members") != -1) {
-    //obj.data.owner.vipLevel;
+    obj.data.owner.nickname = "afengye";
     obj.data.owner.vipStatus = 1;
 }
-
-
 
 aFengYe = JSON.stringify(obj);
 $done(aFengYe);
