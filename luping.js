@@ -14,7 +14,7 @@ hostname = sc.szsszykj.com
 var aFengYe = $response.body;
 
 if($request.url.indexOf("/api/GetIosVip.php") != -1) {
-    aFengYe.replace("\"is_vip\":0", "\"is_vip\":1");
+   aFengYe = aFengYe.replace("\"is_vip\":0", "\"is_vip\":1");
 }
 
 $done(aFengYe);
