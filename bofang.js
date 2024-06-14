@@ -12,6 +12,7 @@ hostname = www.40sishi.com
 *******************************/
 
 var aFengYe = $response.body;
+var obj =  JSON.parse(aFengYe);
 
 if($request.url.indexOf("/seaplayer/user/profile") != -1) {
    obj.data.vipState =  {
