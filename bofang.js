@@ -14,7 +14,12 @@ hostname = www.40sishi.com
 var aFengYe = $response.body;
 
 if($request.url.indexOf("/seaplayer/user/profile") != -1) {
-   aFengYe = aFengYe.replace("\"is_vip\":0", "\"is_vip\":1");
+   obj.data.vipState =  {
+     "startTime": "1970-01-01",
+     "state": 1,
+     "forever": true,
+     "expireTime": "2999-01-01"
+ }
 }
 
 $done(aFengYe);
