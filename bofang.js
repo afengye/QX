@@ -20,7 +20,8 @@ if($request.url.indexOf("/seaplayer/user/profile") != -1) {
      "state": 1,
      "forever": true,
      "expireTime": "2999-01-01"
- }
+   };
 }
 
+aFengYe = JSON.stringify(obj);
 $done(aFengYe);
