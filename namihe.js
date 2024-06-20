@@ -14,7 +14,7 @@ hostname = namibox.com
 var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
-if($request.url.indexOf("/auth/getuserinfo") != -1) {
+if($request.url.indexOf("/auth/getuserinfo") != -1 || $request.url.indexOf("/auth/namibox_quick_login/login") != -1) {
     obj.is_vip = obj.is_member = true;
     obj.member_type  = "VIP";
     obj.nick_name = "afengye";
