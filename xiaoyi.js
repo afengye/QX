@@ -24,17 +24,14 @@ if($request.url.indexOf("/v1/user") != -1) {
       "svip_expired_at": 32472115200,
       "vip_type": "s",
       "username": "afengye"
+    };
+
+    for(let key in obj.user){
+        obj.user.key = vipInfo.key ? vipInfo.key : obj.user.key;
     }
 
-    for(var key in obj.user){
-        if(vipInfo.hasOwnProperty(key)) {
-            obj.user.key = vipInfo.key 
-        }
-    }
-    for(var key in obj.user.biz){
-         if(vipInfo.hasOwnProperty(key)) {
-            obj.user.biz.key = vipInfo.key 
-        }
+    for(let key in obj.user.biz){
+        obj.user.biz.key =  vipInfo.key ? vipInfo.key : obj.user.biz.key;
     }
 }
 
