@@ -25,8 +25,13 @@ if($request.url.indexOf("/v1/user") != -1) {
       "vip_type": "s",
       "username": "afengye"
     }
-    Object.assign(obj.user, vipInfo);
-    Object.assign(obj.user.biz, vipInfo);
+
+    for(var key in obj.user){
+        obj.user[key] = vipInfo[key] ? vipInfo[key] : obj.user[key];
+    }
+    for(var key in obj.user.biz){
+        obj.user[key] = vipInfo[key] ? vipInfo[key] : obj.user[key];
+    }
 }
 
 aFengYe = JSON.stringify(obj);
