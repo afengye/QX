@@ -17,7 +17,7 @@ var obj =  JSON.parse(aFengYe);
 if($request.url.indexOf("/v1/user") != -1) {
     var vipInfo = {
       "xy_vip_type": "s",
-      "xy_svip_expire": 32472115200
+      "xy_svip_expire": 32472115200,
       "is_xy_vip": true,
       "name": "afengye",
       "xy_vip_expire": 32472115200,
