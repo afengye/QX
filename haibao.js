@@ -14,8 +14,11 @@ hostname = dcdnposter.leminet.cn
 var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe); 
 
-obj.data.vip = true;
-obj.data.vip_expire = 32472115200;
+if($request.url.indexOf("/v01/login") != -1 || $request.url.indexOf("/v02/user/endpoint") != -1 || $request.url.indexOf("/v01/profile") != -1) {
+    obj.data.vip = true;
+    obj.data.vip_expire = 32472115200;
+}
+
 
 aFengYe = JSON.stringify(obj);
 $done(aFengYe);
