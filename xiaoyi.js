@@ -8,7 +8,7 @@
 [rewrite_local]
 ^https:\/\/interpreter\.cyapi\.cn\/ url script-response-body https://raw.githubusercontent.com/afengye/QX/main/xiaoyi.js
 [mitm] 
-hostname =interpreter.cyapi.cn
+hostname = interpreter.cyapi.cn
 *******************************/
 
 var aFengYe = $response.body;
@@ -25,13 +25,17 @@ if($request.url.indexOf("/v1/user") != -1) {
       "vip_type": "s",
       "username": "afengye"
     };
-
-    for(let key in obj.user){
-        obj.user.key = vipInfo.key ? vipInfo.key : obj.user.key;
+    let key;
+    for(key in obj.user){
+        if (vipInfo.hasOwnProperty(key)) {
+            obj.user[key] = vipInfo[key];
+        }
     }
 
-    for(let key in obj.user.biz){
-        obj.user.biz.key =  vipInfo.key ? vipInfo.key : obj.user.biz.key;
+    for(key in obj.user.biz){
+        if (vipInfo.hasOwnProperty(key)) {
+            obj.user.biz[key] = vipInfo[key];
+        }
     }
 }
 
