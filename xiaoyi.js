@@ -28,12 +28,12 @@ if($request.url.indexOf("/v1/user") != -1) {
 
     for(var key in obj.user){
         if(vipInfo.hasOwnProperty(key)) {
-            obj.user[key] = vipInfo[key] 
+            obj.user.key = vipInfo.key 
         }
     }
     for(var key in obj.user.biz){
          if(vipInfo.hasOwnProperty(key)) {
-            obj.user.biz[key] = vipInfo[key] 
+            obj.user.biz.key = vipInfo.key 
         }
     }
 }
