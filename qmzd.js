@@ -14,7 +14,7 @@ hostname = www.qimingzidian.top
 var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
-if($request.url.indexOf("/v01/login") != -1) {
+if($request.url.indexOf("/v01/login") != -1 || $request.url.indexOf("/v01/user-info") != -1) {
     obj.data.is_vip = true;
     obj.data.expire = 32472115200;
 }
