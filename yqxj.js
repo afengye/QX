@@ -15,9 +15,13 @@ var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
 if($request.url.indexOf("/yqaicamera/mobile/user/info") != -1) {
-    obj.data.ifMember = "0";
-    obj.data.endDate = "2999-01-01 00:00:00";
-    obj.data.grade = "3";
+    var vipInfo = {
+      "vip_ex_date" : 32472115200,
+      "vip_type" : "13"
+    };
+    obj.user_info.permission_vip_info = [vipInfo];
+    obj.user_info.vip_start_time = 1719716929;
+    obj.user_info.vip_end_time = 32472115200;
 }
 
 aFengYe = JSON.stringify(obj);
