@@ -6,11 +6,10 @@
 使用声明：️仅供学习交流, 🈲️商业用途
 *******************************
 [rewrite_local]
-^https:\/\/appss\.rhinoxlab\.com\/ url script-response-body https://raw.githubusercontent.com/afengye/QX/main/tici.js
+^https:\/\/appss\.rhinox\.cn\/ url script-response-body https://raw.githubusercontent.com/afengye/QX/main/tici.js
 [mitm] 
-hostname = appss.rhinoxlab.com
+hostname = appss.rhinox.cn
 *******************************/
-
 var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
