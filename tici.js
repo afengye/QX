@@ -14,7 +14,7 @@ hostname = appss.rhinoxlab.com
 var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
-if($request.url.indexOf("/app/account/getAccountInfo") != -1) {
+if($request.url.indexOf("//app/account/getAccountInfo") != -1) {
     obj.result.type = "VIP";
     obj.result.freeFlag = "YES";
     obj.result.vipGroupInfos = [
