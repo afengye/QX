@@ -17,9 +17,6 @@ var obj =  JSON.parse(aFengYe);
 var vipInfo = {
     "nickName": "afengye",
     "vip_expiration_time_show": "2999-01-01",
-    "showAudit": true,
-    "exemptAb": true,
-    "idCardCertified": true,
     "vipDayThanWeek": true,
     "vipIsOverdue": false,
     "vip_is_overdue": false
