@@ -14,11 +14,22 @@ hostname = www.voicepackage.xyz
 var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
+var vipInfo = {
+    "nickName": "afengye",
+    "vip_expiration_time_show": "2999-01-01",
+    "showAudit": true,
+    "exemptAb": true,
+    "idCardCertified": true,
+    "vipDayThanWeek": true,
+    "vipIsOverdue": false
+};
+
 if($request.url.indexOf("/app/main/account/index") != -1) {
-    obj.data.nickName = "afengye";
-    obj.data.vip_expiration_time_show = "2999-01-01";
-    obj.data.showAudit = obj.data.exemptAb = obj.data.idCardCertified = obj.data.vipDayThanWeek = true;
-    obj.data.vipIsOverdue = false;
+
+}
+
+if($request.url.indexOf("/app/user/userProfile") != -1) {
+    
 }
 
 aFengYe = JSON.stringify(obj);
