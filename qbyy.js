@@ -21,15 +21,27 @@ var vipInfo = {
     "exemptAb": true,
     "idCardCertified": true,
     "vipDayThanWeek": true,
-    "vipIsOverdue": false
+    "vipIsOverdue": false,
+    "vip_is_overdue": false
 };
 
 if($request.url.indexOf("/app/main/account/index") != -1) {
-
+    let key;
+    for(key in obj.data){
+        if (vipInfo.hasOwnProperty(key)) {
+            obj.data[key] = vipInfo[key];
+        }
+    }
 }
 
 if($request.url.indexOf("/app/user/userProfile") != -1) {
-    
+    let key;
+    for(key in obj.data.user){
+        if (vipInfo.hasOwnProperty(key)) {
+            obj.data.user[key] = vipInfo[key];
+        }
+    }
+    obj.data.isShowVip = true;
 }
 
 aFengYe = JSON.stringify(obj);
