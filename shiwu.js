@@ -1,12 +1,12 @@
 /******************************
-脚本功能：漫画相机-解锁会员
+脚本功能：拍照识物-解锁会员
 脚本作者：afengye
 脚本频道：https://t.me/afengye
 更新时间：2024-07-05
 使用声明：️仅供学习交流, 🈲️商业用途
 *******************************
 [rewrite_local]
-^https:\/\/appss\.rhinoxlab\.com\/ url script-response-body https://raw.githubusercontent.com/afengye/QX/main/manhua.js
+^https:\/\/appss\.rhinoxlab\.com\/ url script-response-body https://raw.githubusercontent.com/afengye/QX/main/shiwu.js
 [mitm] 
 hostname = appss.rhinoxlab.com
 *******************************/
