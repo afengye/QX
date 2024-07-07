@@ -14,6 +14,7 @@ hostname = appss.rhinoxlab.com
 var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
+obj.result.nickname = "afengye";
 obj.result.type = "VIP";
 obj.result.freeFlag = "YES";
 obj.result.vipExpireDays = 99999999999;
