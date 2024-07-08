@@ -14,15 +14,12 @@ hostname = www.helloshiyu.com
 var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
-obj.result.type = "VIP";
-obj.result.freeFlag = "YES";
-obj.result.vipGroupInfos = [
-   {
-    "groupType" : "TYPE_ONE",
-    "vipType" : "VIP",
-    "autoPay" : "YES"
-  }
-];
+obj.data.vipState =  {
+     "startTime": "1970-01-01",
+     "state": 1,
+     "forever": true,
+     "expireTime": "2999-01-01"
+   };
 
 aFengYe = JSON.stringify(obj);
 $done(aFengYe);
