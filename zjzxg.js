@@ -1,12 +1,12 @@
 /******************************
-脚本功能：美颜证件照-解锁会员
+脚本功能：证件照相馆-解锁会员
 脚本作者：afengye
 脚本频道：https://t.me/afengye
 更新时间：2024-07-11
 使用声明：️仅供学习交流, 🈲️商业用途
 *******************************
 [rewrite_local]
-^https:\/\/appss\.rhinoxlab\.com\/app\/account\/getAccountInfo url script-response-body https://raw.githubusercontent.com/afengye/QX/main/myzjz.js
+^https:\/\/appss\.rhinoxlab\.com\/app\/account\/getAccountInfo url script-response-body https://raw.githubusercontent.com/afengye/QX/main/zjzxg.js
 [mitm] 
 hostname = appss.rhinoxlab.com
 *******************************/
