@@ -14,17 +14,17 @@ hostname = nmeditation.snailsleep.net
 var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
-var expressTime = 32472115200;
+var expiresTime = 32472115200;
 var vipFlag = true;
 
 if($request.url.indexOf("/meditation-order/api/order/user/vip/info") != -1) {
      obj.isVip = vipFlag;
-     obj.express = expressTime;
+     obj.expires = expiresTime;
 }
 
 if($request.url.indexOf("/meditation-user/user/get/info") != -1) {
      obj.result.vip = vipFlag;
-     obj.result.express = expressTime;
+     obj.result.expires = expiresTime;
 }
 
 aFengYe = JSON.stringify(obj);
