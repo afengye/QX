@@ -1,12 +1,12 @@
 /******************************
-脚本功能：工资计算器、手机打印机、彩豆水印相机-解锁会员
+脚本功能：工资计算器、手机打印机、彩豆水印相机、好多纸-解锁会员
 脚本作者：afengye
 脚本频道：https://t.me/afengye
 更新时间：2024-07-16
 使用声明：️仅供学习交流, 🈲️商业用途
 *******************************
 [rewrite_local]
-^https:\/\/appss\.(zhushengzi|rhinoxlab)\.com\/(\/)?app\/account\/getAccountInfo url script-response-body https://raw.githubusercontent.com/afengye/QX/main/tyjs.js
+^https:\/\/appss\.(zhushengzi|rhinoxlab|wangjuezi)\.com\/(\/)?app\/account\/getAccountInfo url script-response-body https://raw.githubusercontent.com/afengye/QX/main/tyjs.js
 [mitm] 
 hostname = appss.rhinoxlab.com,appss.zhushengzi.com
 *******************************/
