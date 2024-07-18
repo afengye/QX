@@ -8,7 +8,7 @@
 [rewrite_local]
 ^https:\/\/appss\.(zhushengzi|rhinoxlab|wangjuezi)\.com\/(\/)?app\/account\/getAccountInfo url script-response-body https://raw.githubusercontent.com/afengye/QX/main/tyjs.js
 [mitm] 
-hostname = appss.rhinoxlab.com,appss.zhushengzi.com
+hostname = appss.rhinoxlab.com,appss.zhushengzi.com,appss.wangjuezi.com
 *******************************/
 
 var aFengYe = $response.body;
