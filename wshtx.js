@@ -14,9 +14,10 @@ hostname = htx.jietuguanjia.com
 var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
-obj.data.vipExpiredTime = "2999-01-01";
+obj.data.vipExpiredTime = "2999-01-01 00:00:00";
 obj.data.isVip = true;
 obj.data.isInAppBuy = 1;
+obj.data.username = "afengye";
 
 aFengYe = JSON.stringify(obj);
 $done(aFengYe);
