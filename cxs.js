@@ -6,7 +6,7 @@
 使用声明：️仅供学习交流, 🈲️商业用途
 *******************************
 [rewrite_local]
-^https:\/\/poetry\.nanxiani\.cn\/api\/User\/(loginUserInfo|getuserdata) url script-response-body https://raw.githubusercontent.com/afengye/QX/main/cxs.js
+^https:\/\/poetry\.nanxiani\.cn\/api\/(user\/getuserdata|User\/loginUserInfo) url script-response-body https://raw.githubusercontent.com/afengye/QX/main/cxs.js
 [mitm] 
 hostname = poetry.nanxiani.cn
 *******************************/
