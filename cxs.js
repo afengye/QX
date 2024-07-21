@@ -15,11 +15,8 @@ var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
 var vipInfo = {
-  "is_sale": true,
-  "vip_group": "2",
+  "vip_group": "cxs_svip",
   "had_vip": true,
-  "collect_sound_count": 99999,
-  "user_sound_count": 99999
 }
 
 for (let key in obj.data) {
