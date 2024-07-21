@@ -16,11 +16,10 @@ var obj =  JSON.parse(aFengYe);
 
 var vipInfo = {
   "is_sale": true,
-  "vip_group": "com.yuanlue.cxs.pay.life",
+  "vip_group": "2",
   "had_vip": true,
-  "collect_sound_count": 99999999,
-  "user_sound_count": 99999999,
-  "is_device_user": true
+  "collect_sound_count": 99999,
+  "user_sound_count": 99999
 }
 
 for (let key in obj.data) {
