@@ -6,23 +6,15 @@
 使用声明：️仅供学习交流, 🈲️商业用途
 *******************************
 [rewrite_local]
-^https:\/\/api\.shayujizhang\.com\/account\/grant\/\.* url script-response-body https://raw.githubusercontent.com/afengye/QX/main/shayu.js
+^http:\/\/101\.37\.76\.151\:8045\/\/User\/GetVIPInfo url script-response-body https://raw.githubusercontent.com/afengye/QX/main/sysp.js
 [mitm] 
-hostname = api.shayujizhang.com
+hostname = 101.37.76.151
 *******************************/
 
 var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
-if($request.url.indexOf("/account/grant/vip/detail/") != -1) {
-    obj.data.is_buy = 1;
-}
-if($request.url.indexOf("/account/grant/info/") != -1) {
-    obj.data.vip = {
-      "isvip": 1,
-      "days": 999
-    }
-}
+obj.day = "99999";
 
 aFengYe = JSON.stringify(obj);
 $done(aFengYe);
