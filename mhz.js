@@ -15,10 +15,16 @@ var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
 var vipInfo = {
-  
+  "is_vip": "1",
+  "vip_type": "2",
+  "vip_end_time": "32472115200"
 }
 
-
+for (let key in obj.data) {
+  if (vipInfo.hasOwnProperty(key)) {
+     obj.data[key] = vipInfo[key]
+  }
+}
 
 aFengYe = JSON.stringify(obj);
 $done(aFengYe);
