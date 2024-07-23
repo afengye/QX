@@ -15,9 +15,13 @@ var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
 var vipInfo = {
-  "is_vip": "1",
-  "vip_type": "2",
-  "vip_end_time": "32472115200"
+    "gold": "999",
+    "integral": "999",
+    "card_count": "999",
+    "ticket": "999",
+    "vip_end_time": "32472115200",
+    "is_vip": "1",
+    "vip_type": "2"
 }
 
 for (let key in obj.data) {
