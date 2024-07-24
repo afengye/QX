@@ -21,6 +21,11 @@ var vipInfo = {
   "vip_expiry_date_1970" : 32472115200
 }
 
+for (let key in obj.data) {
+  if (vipInfo.hasOwnProperty(key)) {
+     obj.data[key] = vipInfo[key]
+  }
+}
 
 
 aFengYe = JSON.stringify(obj);
