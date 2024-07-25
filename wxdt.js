@@ -15,7 +15,7 @@ var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
 var vipInfo = {
-  "vip_type":"year",
+  "vip_type":"永久会员",
   "vip_expire": "2999-01-01 00:00:00",
   "is_vip": 1,
   "vip_day": 99999
