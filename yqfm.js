@@ -14,7 +14,23 @@ hostname = yuanjoy.com
 var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
-obj = obj.replaceAll(/false, true);
+
+if($request.url.indexOf("/api/special/list") != -1) {
+    var list = obj.data;
+    for (var i = 0; i < list.length; i++){
+        var soundList = list[i].soundList;
+        for (var j = 0; j < soundList.length; j++){
+          soundList[j].isFree = true;
+        }
+    }
+}
+
+if($request.url.indexOf("/api/radio/list/exclude") != -1 || $request.url.indexOf("/api/sound/list/exclude") != -1) {
+    var list = obj.data.list;
+    for (var i = 0; i < list.length; i++){
+        list[i].isFree = true;
+    }
+}
 
 aFengYe = JSON.stringify(obj);
 $done(aFengYe);
