@@ -6,7 +6,7 @@
 使用声明：️仅供学习交流, 🈲️商业用途
 *******************************
 [rewrite_local]
-^https:\/\/yuanjoy\.com\/FM\/api\/(special|radio|sound)\/list(\.?)+ url script-response-body https://raw.githubusercontent.com/afengye/QX/main/yqfm.js
+^https:\/\/yuanjoy\.com\/FM\/api\/(\.?)+ url script-response-body https://raw.githubusercontent.com/afengye/QX/main/yqfm.js
 [mitm] 
 hostname = yuanjoy.com
 *******************************/
@@ -19,9 +19,18 @@ if($request.url.indexOf("/api/special/list") != -1) {
     var list = obj.data;
     for (var i = 0; i < list.length; i++){
         var soundList = list[i].soundList;
-        for (var j = 0; j < soundList.length; j++){
-          soundList[j].isFree = true;
+        if (soundList) {
+            for (var j = 0; j < soundList.length; j++){
+              soundList[j].isFree = true;
+            }
         }
+    }
+}
+
+if($request.url.indexOf("/api/sync") != -1) {
+    var list = obj.data.sounds;
+    for (var i = 0; i < list.length; i++){
+        list[i].isFree = true;
     }
 }
 
