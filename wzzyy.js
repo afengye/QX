@@ -15,10 +15,11 @@ var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
 var vipInfo = {
-  "vip_product_id" : "week_1.99first",
-  "vip_expiry_date" : "2999-01-01 00:00:00",
-  "vip_type" : "0",
-  "vip_expiry_date_1970" : 32472115200
+  "vip_product_id": "week_1.99first",
+  "vip_expiry_date": "2999-01-01 00:00:00",
+  "vip_type": "0",
+  "vip_expiry_date_1970": 32472115200,
+  "integral": 0
 }
 
 for (let key in obj.data) {
