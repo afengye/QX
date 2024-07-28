@@ -18,9 +18,6 @@ var obj =  JSON.parse(aFengYe);
 var vipInfo = {
   "memberFlag": true,
   "expireDate": "2999-01-01 00:00:00",
-  "memberIcon": "https://pgcloud.aitici.com/common/20231213/e81d654a862d4da7acd62b2b62c2281c.jpg",
-  "memberId": 1009001,
-  "memberName": "终身会员",
   "userRingStatus": true,
   "userSubscribeStatus": true
 }
