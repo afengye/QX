@@ -6,7 +6,7 @@
 使用声明：️仅供学习交流, 🈲️商业用途
 *******************************
 [rewrite_local]
-^https:\/\/gateway\.hatelifu\.club\/open\/common\/user\/getUserInfo url script-response-body https://raw.githubusercontent.com/afengye/QX/main/wnzm.js
+^https:\/\/gateway\.hatelifu\.club\/open\/common(\.?)+ url script-response-body https://raw.githubusercontent.com/afengye/QX/main/wnzm.js
 [mitm] 
 hostname = gateway.hatelifu.club
 *******************************/
