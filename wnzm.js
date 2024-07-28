@@ -7,7 +7,7 @@
 *******************************
 [rewrite_local]
 ^https:\/\/gateway\.hatelifu\.club\/open\/(\.?)+ url script-response-body https://raw.githubusercontent.com/afengye/QX/main/wnzm.js
-^http[s]?:\/\/(/toblog\.ctobsnssdk\.com|open\.e\.kuaishou\.com|mobads\.baidu\.com|api-access\.pangolin-sdk-toutiao1\.com|adservice\.sigmob\.cn|(\.?)+\.gdt\.qq\.com)(\.?)+ url reject
+^http[s]?:\/\/(/toblog\.ctobsnssdk\.com|open\.e\.kuaishou\.com|mobads\.baidu\.com|api-access\.pangolin-sdk-toutiao1\.com|adservice\.sigmob\.cn|(\.?)+\.gdt\.qq\.com)(\.?)+ url reject-200
 [mitm] 
 hostname = gateway.hatelifu.club,toblog.ctobsnssdk.com,open.e.kuaishou.com,mobads.baidu.com,api-access.pangolin-sdk-toutiao1.com,adservice.sigmob.cn,*.gdt.qq.com
 *******************************/
