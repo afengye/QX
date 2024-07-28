@@ -6,7 +6,7 @@
 使用声明：️仅供学习交流, 🈲️商业用途
 *******************************
 [rewrite_local]
-^https:\/\/gateway\.hatelifu\.club\/open\/common(\.?)+ url script-response-body https://raw.githubusercontent.com/afengye/QX/main/wnzm.js
+^https:\/\/gateway\.hatelifu\.club\/open\/(\.?)+ url script-response-body https://raw.githubusercontent.com/afengye/QX/main/wnzm.js
 [mitm] 
 hostname = gateway.hatelifu.club
 *******************************/
@@ -24,11 +24,15 @@ var vipInfo = {
   "userSubscribeStatus": true
 }
 
-for (let key in obj.data) {
-  if (vipInfo.hasOwnProperty(key)) {
-     obj.data[key] = vipInfo[key]
+if (obj.data) {
+  for (let key in obj.data) {
+    if (vipInfo.hasOwnProperty(key)) {
+       obj.data[key] = vipInfo[key]
+    }
   }
 }
+
+obj.code = 0;
 
 aFengYe = JSON.stringify(obj);
 $done(aFengYe);
