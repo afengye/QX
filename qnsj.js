@@ -26,9 +26,9 @@ var vipInfo = {
    "isForeverVip": 1
 }
 
-for (let key in obj.data) {
+for (let key in obj.result) {
   if (vipInfo.hasOwnProperty(key)) {
-     obj.data[key] = vipInfo[key]
+     obj.result[key] = vipInfo[key]
   }
 }
 
