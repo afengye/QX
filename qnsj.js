@@ -23,7 +23,9 @@ var vipInfo = {
    "isVip": 1,
    "isTeamUserVip": 1,
    "teamVipExpireTime": "2999-01-01 00:00:00",
-   "isForeverVip": 1
+   "isForeverVip": 1,
+   "professionalVipExpireTime": "2999-01-01 00:00:00",
+   "companyVipExpireTime": "2999-01-01 00:00:00"
 }
 
 for (let key in obj.result) {
