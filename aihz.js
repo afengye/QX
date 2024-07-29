@@ -20,7 +20,8 @@ var vipInfo = {
    "days": 99999,
    "member_type": 1,
    "is_expired": 0,
-   "member_id": 111
+   "recall_member": 1,
+   "end_date": "2999-01-01"
 }
 
 for (let key in obj.data) {
