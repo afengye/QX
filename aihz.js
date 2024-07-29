@@ -16,7 +16,11 @@ var obj =  JSON.parse(aFengYe);
 
 var vipInfo = {
    "isMember": 1,
-   "expiration_time": "2999-01-01 00:00:00"
+   "expiration_time": "2999-01-01 00:00:00",
+   "days": 99999,
+   "member_type": 1,
+   "is_expired": 0,
+   "member_id": 111
 }
 
 for (let key in obj.data) {
