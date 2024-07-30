@@ -6,7 +6,7 @@
 使用声明：️仅供学习交流, 🈲️商业用途
 **************************************************************
 [rewrite_local]
-^https:\/\/api\.memrise\.com\/(.?)+\/(me|scenarios)\/(\.?)+ url script-response-body https://raw.githubusercontent.com/afengye/QX/main/ysj.js
+^https:\/\/api\.memrise\.com\/(.?)+\/(me|learning_sessions)\/(\.?)+ url script-response-body https://raw.githubusercontent.com/afengye/QX/main/ysj.js
 [mitm] 
 hostname = api.memrise.com
 *******************************/
