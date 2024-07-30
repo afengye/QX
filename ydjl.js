@@ -15,8 +15,8 @@ var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
 var vipInfo = {
-  "has_perpetual_vip": 1,
-  "expires_date_s": 32472115200
+  "member_type": 4,
+  "member_status": 1
 }
 
 for (let key in obj.data) {
