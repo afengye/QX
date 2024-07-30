@@ -14,13 +14,15 @@ hostname = app.yidiansz.com
 var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
-if(obj.profile) {
-   obj.profile.is_pro = true;
-} else {
-   obj.is_locked = false;
-   if (obj.code) {
-      obj.code = 0;
-   }  
+var vipInfo = {
+  "has_perpetual_vip": 1,
+  "expires_date_s": 32472115200
+}
+
+for (let key in obj.data) {
+  if (vipInfo.hasOwnProperty(key)) {
+     obj.data[key] = vipInfo[key]
+  }
 }
 
 
