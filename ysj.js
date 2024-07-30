@@ -14,14 +14,13 @@ hostname = api.memrise.com
 var aFengYe = $response.body;
 var obj =  JSON.parse(aFengYe);
 
-var vipInfo = {
-   "is_pro": true
-}
-
 if(obj.profile) {
    obj.profile.is_pro = true;
 } else {
    obj.is_locked = false;
+   if (obj.code) {
+      obj.code = 0;
+   }  
 }
 
 
