@@ -7,8 +7,9 @@
 *******************************
 [rewrite_local]
 ^https:\/\/pay\.camoryapps\.com\/appPay\/api\/user\/info\/tokenLogin url script-response-body https://raw.githubusercontent.com/afengye/QX/main/ypjj.js
+^https:\/\/ad\.camoryapps\.com\/(\.?)+ url reject-200
 [mitm] 
-hostname = pay.camoryapps.com
+hostname = pay.camoryapps.com,ad.camoryapps.com
 *******************************/
 
 var aFengYe = $response.body;
