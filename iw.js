@@ -6,7 +6,7 @@
 使用声明：️仅供学习交流, 🈲️商业用途
 *******************************
 [rewrite_local]
-^https:\/\/api-webclip\.wdxzj\.com\/?service=App\.User\.GetInfo url script-response-body https://raw.githubusercontent.com/afengye/QX/main/iw.js
+^https:\/\/api-webclip\.wdxzj\.com\/\?service=App\.User\.GetInfo url script-response-body https://raw.githubusercontent.com/afengye/QX/main/iw.js
 [mitm] 
 hostname = api-webclip.wdxzj.com
 *******************************/
