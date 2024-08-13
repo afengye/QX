@@ -6,7 +6,7 @@
 使用声明：️仅供学习交流, 🈲️商业用途
 *******************************
 [rewrite_local]
-^https:\/\/paperwork\.szshht\.cn\/api\/User\/getUserInfo url script-response-body https://raw.githubusercontent.com/afengye/QX/main/spzwz.js
+^https:\/\/paperwork\.szshht\.cn\/api\/User\/getVipInfo url script-response-body https://raw.githubusercontent.com/afengye/QX/main/spzwz.js
 [mitm] 
 hostname = paperwork.szshht.cn
 *******************************/
