@@ -6,16 +6,9 @@
 使用声明：️仅供学习交流, 🈲️商业用途
 *******************************
 [rewrite_local]
-^https:\/\/app\.yiyan\.art\/yiyan\/(getuserinfoandbooklist|checkpro)(.?)+ url script-response-body https://raw.githubusercontent.com/afengye/QX/main/yy.js
+^https:\/\/app\.yiyan\.art\/yiyan\/(getuserinfoandbooklist|checkpro)(\.?)+ url script-response-body https://raw.githubusercontent.com/afengye/QX/main/yy.js
 [mitm] 
 hostname = app.yiyan.art
 *******************************/
 
-var aFengYe = $response.body;
-var obj =  JSON.parse(aFengYe);
-
-var data = obj.user ? obj.user : obj;
-data.viptype = "3";
-
-aFengYe = JSON.stringify(obj);
-$done(aFengYe);
+var aFengYe=$response["\u0062\u006f\u0064\u0079"];var obj=JSON["\u0070\u0061\u0072\u0073\u0065"](aFengYe);var data=obj["\u0075\u0073\u0065\u0072"]?obj["\u0075\u0073\u0065\u0072"]:obj;data["\u0076\u0069\u0070\u0074\u0079\u0070\u0065"]="\u0033";aFengYe=JSON["\u0073\u0074\u0072\u0069\u006e\u0067\u0069\u0066\u0079"](obj);$done(aFengYe);
