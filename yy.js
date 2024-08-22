@@ -11,4 +11,11 @@
 hostname = app.yiyan.art
 *******************************/
 
-var aFengYe=$response['\x62\x6f\x64\x79'];var obj=JSON['\x70\x61\x72\x73\x65'](aFengYe);var data=obj['\x75\x73\x65\x72']?obj['\x75\x73\x65\x72']:obj;data['\x76\x69\x70\x74\x79\x70\x65']='\x33';aFengYe=JSON['\x73\x74\x72\x69\x6e\x67\x69\x66\x79'](obj);$done(aFengYe);
+var aFengYe = $response.body;
+var obj =  JSON.parse(aFengYe);
+
+var data = obj.user ? obj.user : obj;
+data.viptype = "3";
+
+aFengYe = JSON.stringify(obj);
+$done(aFengYe);
