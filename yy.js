@@ -11,4 +11,4 @@
 hostname = app.yiyan.art
 *******************************/
 
-var _0x4383=['\x73\x74\x72\x69\x6e\x67\x69\x66\x79','\x62\x6f\x64\x79','\x76\x69\x70\x74\x79\x70\x65'];var _0x26fa=function(_0x438308,_0x26fa5a){_0x438308=_0x438308-0x0;var _0x1081b3=_0x4383[_0x438308];return _0x1081b3;};var aFengYe=$response[_0x26fa('\x30\x78\x31')];var obj=JSON['\x70\x61\x72\x73\x65'](aFengYe);var data=obj['\x75\x73\x65\x72']?obj['\x75\x73\x65\x72']:obj;data[_0x26fa('\x30\x78\x32')]='\x33';aFengYe=JSON[_0x26fa('\x30\x78\x30')](obj);$done(aFengYe);
+var aFengYe=$response['\x62\x6f\x64\x79'];var obj=JSON['\x70\x61\x72\x73\x65'](aFengYe);var data=obj['\x75\x73\x65\x72']?obj['\x75\x73\x65\x72']:obj;data['\x76\x69\x70\x74\x79\x70\x65']='\x33';aFengYe=JSON['\x73\x74\x72\x69\x6e\x67\x69\x66\x79'](obj);$done(aFengYe);
