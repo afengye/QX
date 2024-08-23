@@ -12,4 +12,9 @@
 hostname = api-sub.meitu.com,api-danbo.meitu.com
 *******************************/
 
-var obj=JSON["\u0070\u0061\u0072\u0073\u0065"]($response["\u0062\u006f\u0064\u0079"]);var data=obj["\u0064\u0061\u0074\u0061"];data["\u0069\u0073\u005f\u0076\u0069\u0070"]=data["\u0075\u0073\u0065\u005f\u0076\u0069\u0070"]=!![];$done(JSON["\u0073\u0074\u0072\u0069\u006e\u0067\u0069\u0066\u0079"](obj));
+var obj =  JSON.parse($response.body);
+
+var data = obj.data;
+data.is_vip = data.use_vip = true;
+
+$done(JSON.stringify(obj));
