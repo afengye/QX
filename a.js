@@ -2,10 +2,11 @@
 脚本功能：模板
 脚本作者：afengye
 注意事项：无
+下载软件：
 使用声明：️仅供学习交流, 🈲️商业用途
 ********************************
 [rewrite_local]
-^ url script-response-body https://raw.githubusercontent.com/afengye/QX/main/
+ url script-response-body https://raw.githubusercontent.com/afengye/QX/main/
 [mitm] 
 hostname = 
 *******************************/
