@@ -11,7 +11,7 @@
 hostname = 
 *******************************/
 
-var obj =  JSON.parse($response.body);
+let obj =  JSON.parse($response.body);
 
 
 $done({body: JSON.stringify(obj)});
