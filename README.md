@@ -1,2 +1,2 @@
 # QX
-QX脚本分享
+QX破解脚本分享 欢迎关注我的频道：https://t.me/afengye
