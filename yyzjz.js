@@ -8,15 +8,25 @@
 [rewrite_local]
 ^https:\/\/fufei\.cfcpe\.com\.cn\/api\/client\/info(.?)+ url script-response-body https://raw.githubusercontent.com/afengye/QX/main/yyzjz.js
 [mitm] 
-hostname = fufei.cfcpe.com
+hostname = fufei.cfcpe.com.cn
 *******************************/
 
 let obj =  JSON.parse($response.body);
 
 obj.data.vip = {
   "forever" : 1,
-  "vip" : 1,
-  "expired_at" : "2999-01-01 00:00:00"
+  "plan_id" : 2500,
+  "func_quota" : -1,
+  "actived_at" : "2024-09-01 09:00:00",
+  "func_times" : 0,
+  "isExpired" : 0,
+  "is_vip_plan" : 1,
+  "start_time" : null,
+  "viptype" : 5346790,
+  "ios_product_id" : "YiYanIDPhoto_Lifelong",
+  "vipname" : "终身VIP",
+  "expired_at" : "2999-01-01 00:00:00",
+  "status" : 1
 }
 
 $done({body: JSON.stringify(obj)});
