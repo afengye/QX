@@ -13,9 +13,8 @@ hostname = kt.jiaofei8.cn
 
 let obj =  JSON.parse($response.body);
 
-let data = obj.data;
-data = {
-  ...data,
+obj.data = {
+  ...obj.data,
   "free_num" : 99999,
   "finish_time" : "终身会员",
   "type" : 2
