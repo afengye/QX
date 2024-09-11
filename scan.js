@@ -1,13 +1,13 @@
 /*******************************
-脚本功能：Scanner Pro-解锁订阅
+脚本功能：Scanner Pro-一次性解锁订阅
 脚本作者：afengye
 注意事项：开启脚本再进入，无效点击恢复购买
 频道地址：https://t.me/afengye
 使用声明：️仅供学习交流, 🈲️商业用途
 ********************************
 [rewrite_local]
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/afengye/QX/main/scan.js
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/afengye/QX/main/scan.js
+^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/afengye/QX/main/scan.js
+^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/afengye/QX/main/scan.js
 [mitm] 
 hostname = api.revenuecat.com
 *******************************/
