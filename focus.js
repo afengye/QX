@@ -1,13 +1,13 @@
 /****************************************************
-脚本功能：Dtd Sounds:睡眠白噪音-一次性解锁订阅
+脚本功能：Focus专注-解锁永久订阅
 脚本作者：afengye
 注意事项：开启脚本再进入,多尝试几次，卡成功就完事了
 频道地址：https://t.me/afengye
 使用声明：️仅供学习交流, 🈲️商业用途
 *****************************************************
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/afengye/QX/main/smbzy.js
-^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/afengye/QX/main/smbzy.js
+^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/afengye/QX/main/focus.js
+^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/afengye/QX/main/focus.js
 [mitm] 
 hostname = api.revenuecat.com
 *******************************/
@@ -21,8 +21,8 @@ if(typeof $response == "undefined") {
 }else {
   let body = JSON.parse(typeof $response != "undefined" && $response.body || null);
   if(body && body.subscriber) {
-    const name = "Pro";
-    const appid = "com.dtd.aroundu.life";
+    const name = "subscribed";
+    const appid = "iap.io.masterbuilders.focus.pro_one_year";
     let data = {
       "expires_date": "2999-01-01T00:00:00Z",
       "original_purchase_date":  "2021-01-01T00:00:00Z",
