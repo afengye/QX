@@ -21,7 +21,7 @@ if(typeof $response == "undefined") {
 }else {
   let body = JSON.parse(typeof $response != "undefined" && $response.body || null);
   if(body && body.subscriber) {
-    const name = "Pro";
+    const name = "PRO";
     const appid = "com.dtd.aroundu.life";
     let data = {
       "expires_date": "2999-01-01T00:00:00Z",
