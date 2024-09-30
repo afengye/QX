@@ -25,7 +25,7 @@ if(typeof $response == "undefined") {
     let data = {"expires_date": "2999-01-01T00:00:00Z","original_purchase_date":"2021-01-01T00:00:00Z","purchase_date": "2021-01-01T00:00:00Z","ownership_type": "PURCHASED","store": "app_store"};
     let subscriber = body.subscriber;
     subscriber.entitlements[(entitlement)] = subscriber.subscriptions[(product_id)] = data;        
-    subscriber.entitlements[(entitlement)].product_identifier = product_identifier;   
+    subscriber.entitlements[(entitlement)].product_identifier = product_id;   
     obj.body = JSON.stringify(body);
   } 
 }
