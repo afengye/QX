@@ -30,7 +30,8 @@ if(typeof $response == "undefined") {
       {"app_name":"1Blocker","bundle_id":"","product_id":"blocker.ios.iap.lifetime","entitlements":["premium"],"version":"5.8"},
       {"app_name":"VidCap","bundle_id":"io.fadel.VidCap","product_id":"subs.vcp_59.99_365_3","entitlements":["io.fadel.vidcap.pro"],"version":"1.0.197"},
       {"app_name":"SuperPlanner","bundle_id":"com.gabrielguarino.SuperPlanner","product_id":"superplanner_pro_lifetime","entitlements":["pro_lifetime"],"version":"2.1.2406"},
-      {"app_name":"Ereasy","bundle_id":"background.remover.bg.eraser","product_id":"app.ereasy.ereasy.na.bold.one_year","entitlements":["premium","Full_access_app"],"version":"2.0.0"}
+      {"app_name":"Ereasy","bundle_id":"background.remover.bg.eraser","product_id":"app.ereasy.ereasy.na.bold.one_year","entitlements":["premium","Full_access_app"],"version":"2.0.0"},
+      {"app_name":"stepapp","bundle_id":"com.gunthermarktl.stepapp","product_id":"app.steps.stepsapp.premium.year","entitlements":["stepapppro"],"version":"8.0.1"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
