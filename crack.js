@@ -34,7 +34,9 @@ if(typeof $response == "undefined") {
       {"app_name":"stepapp","bundle_id":"com.gunthermarktl.stepapp","product_id":"app.steps.stepsapp.premium.year","entitlements":["stepapppro"],"version":"8.0.1"},
       {"app_name":"WorldClock","bundle_id":"com.overdesigned.WorldClock","product_id":"com.overdesigned.worldclock.removeads1","entitlements":["lifetime-unlock"],"version":"1.21.2"},
       {"app_name":"%E8%A7%A3%E5%BF%A7%E5%A8%83%E5%A8%83","bundle_id":"id.com.WorryDolls","product_id":"magicmode","entitlements":["magicmode"],"version":"2.0"},
-      {"app_name":"opusvpn","bundle_id":"com.biel.opus.vpn","product_id":"opusvpn.v2.yearly","entitlements":["PRO"],"version":"1.8.6"}
+      {"app_name":"opusvpn","bundle_id":"com.biel.opus.vpn","product_id":"opusvpn.v2.yearly","entitlements":["PRO"],"version":"1.8.6"},
+      {"app_name":"Fleeky","bundle_id":"net.cacaomobile.customizescreen","product_id":"fleeky_week_cny48_3d","entitlements":["Unlimited"],"version":"3.15.0"},
+      {"app_name":"Zen7%20VPN","bundle_id":"com.efe.zen7vpn","product_id":"yearly","entitlements":["Premium"],"version":"2.0"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
