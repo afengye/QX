@@ -36,7 +36,9 @@ if(typeof $response == "undefined") {
       {"app_name":"%E8%A7%A3%E5%BF%A7%E5%A8%83%E5%A8%83","bundle_id":"id.com.WorryDolls","product_id":"magicmode","entitlements":["magicmode"],"version":"2.0"},
       {"app_name":"opusvpn","bundle_id":"com.biel.opus.vpn","product_id":"opusvpn.v2.yearly","entitlements":["PRO"],"version":"1.8.6"},
       {"app_name":"Fleeky","bundle_id":"net.cacaomobile.customizescreen","product_id":"fleeky_week_cny48_3d","entitlements":["Unlimited"],"version":"3.15.0"},
-      {"app_name":"Zen7%20VPN","bundle_id":"com.efe.zen7vpn","product_id":"yearly","entitlements":["Premium"],"version":"2.0"}
+      {"app_name":"Zen7%20VPN","bundle_id":"com.efe.zen7vpn","product_id":"yearly","entitlements":["Premium"],"version":"2.0"},
+      {"app_name":"HappyScale","bundle_id":"com.frontpocketsoftware.happyscale","product_id":"com.frontpocketsoftware.happyscale.premium.perpetual","entitlements":["premium"],"version":"2024.15"},
+      {"app_name":"%E9%85%B7%E6%8B%8D","bundle_id":"com.wallpapershub.anime","product_id":"com.wallpapershub.anime.premiumCategories","entitlements":["Premium"],"version":"3.7"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
