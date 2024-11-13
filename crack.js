@@ -40,7 +40,9 @@ if(typeof $response == "undefined") {
       {"app_name":"HappyScale","bundle_id":"com.frontpocketsoftware.happyscale","product_id":"com.frontpocketsoftware.happyscale.premium.perpetual","entitlements":["premium"],"version":"2024.15"},
       {"app_name":"%E9%85%B7%E6%8B%8D","bundle_id":"com.wallpapershub.anime","product_id":"com.wallpapershub.anime.premiumCategories","entitlements":["Premium"],"version":"3.7"},
       {"app_name":"ZoomEarth","bundle_id":"com.neave.zoomearth","product_id":"ze_pro_annual_v1","entitlements":["pro"],"version":"3.1"},
-      {"app_name":"FitnessView","bundle_id":"com.funnmedia.fitnessview","product_id":"fitnessview.premiumOnetime","entitlements":["fitnessview-premium"],"version":"2.5.7"}
+      {"app_name":"FitnessView","bundle_id":"com.funnmedia.fitnessview","product_id":"fitnessview.premiumOnetime","entitlements":["fitnessview-premium"],"version":"2.5.7"},
+      {"app_name":"Video%20Up!","bundle_id":"video.up.editor.maker","product_id":"app.videoup.videoup.na.base.one_year","entitlements":["Full_access_app"],"version":"1.23.1"},
+      {"app_name":"ElementNote","bundle_id":"com.soysaucelab.element.note","product_id":"com.soysaucelab.element.note.lifetime","entitlements":["pro"],"version":"2.5.0"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
