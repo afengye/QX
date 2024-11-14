@@ -42,7 +42,9 @@ if(typeof $response == "undefined") {
       {"app_name":"ZoomEarth","bundle_id":"com.neave.zoomearth","product_id":"ze_pro_annual_v1","entitlements":["pro"],"version":"3.1"},
       {"app_name":"FitnessView","bundle_id":"com.funnmedia.fitnessview","product_id":"fitnessview.premiumOnetime","entitlements":["fitnessview-premium"],"version":"2.5.7"},
       {"app_name":"Video%20Up!","bundle_id":"video.up.editor.maker","product_id":"app.videoup.videoup.na.base.one_year","entitlements":["Full_access_app"],"version":"1.23.1"},
-      {"app_name":"ElementNote","bundle_id":"com.soysaucelab.element.note","product_id":"com.soysaucelab.element.note.lifetime","entitlements":["pro"],"version":"2.5.0"}
+      {"app_name":"ElementNote","bundle_id":"com.soysaucelab.element.note","product_id":"com.soysaucelab.element.note.lifetime","entitlements":["pro"],"version":"2.5.0"},
+      {"app_name":"Bend2","bundle_id":"com.bowery-digital.bend","product_id":"subs_29.99_365_0","entitlements":["all_access"],"version":"6.1.3"},
+      {"app_name":"Carbon","bundle_id":"rr.carbon","product_id":"carbon.subscription.yearly.1.freetrial","entitlements":["pro"],"version":"14.2"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
