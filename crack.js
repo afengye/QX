@@ -44,7 +44,10 @@ if(typeof $response == "undefined") {
       {"app_name":"Video%20Up!","bundle_id":"video.up.editor.maker","product_id":"app.videoup.videoup.na.base.one_year","entitlements":["Full_access_app"],"version":"1.23.1"},
       {"app_name":"ElementNote","bundle_id":"com.soysaucelab.element.note","product_id":"com.soysaucelab.element.note.lifetime","entitlements":["pro"],"version":"2.5.0"},
       {"app_name":"Bend2","bundle_id":"com.bowery-digital.bend","product_id":"subs_29.99_365_0","entitlements":["all_access"],"version":"6.1.3"},
-      {"app_name":"Carbon","bundle_id":"rr.carbon","product_id":"carbon.subscription.yearly.1.freetrial","entitlements":["pro"],"version":"14.2"}
+      {"app_name":"Carbon","bundle_id":"rr.carbon","product_id":"carbon.subscription.yearly.1.freetrial","entitlements":["pro"],"version":"14.2"},
+      {"app_name":"Assembly","bundle_id":"com.pixite.assembly","product_id":"com.pixite.assembly.1yearP","entitlements":["premium_access"],"version":"2.4.7"},
+      {"app_name":"UTC","bundle_id":"tech.miidii.UTC","product_id":"tech.miidii.UTC.unlock.pro","entitlements":["Entitlement.Pro"],"version":"3.11"},
+      {"app_name":"Ramble","bundle_id":"com.bowery-digital.ramble","product_id":"subs.rmbl_19.99_365_0","entitlements":["all_access"],"version":"1.1.1"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
