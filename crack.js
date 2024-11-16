@@ -47,7 +47,9 @@ if(typeof $response == "undefined") {
       {"app_name":"Carbon","bundle_id":"rr.carbon","product_id":"carbon.subscription.yearly.1.freetrial","entitlements":["pro"],"version":"14.2"},
       {"app_name":"Assembly","bundle_id":"com.pixite.assembly","product_id":"com.pixite.assembly.1yearP","entitlements":["premium_access"],"version":"2.4.7"},
       {"app_name":"UTC","bundle_id":"tech.miidii.UTC","product_id":"tech.miidii.UTC.unlock.pro","entitlements":["Entitlement.Pro"],"version":"3.11"},
-      {"app_name":"Ramble","bundle_id":"com.bowery-digital.ramble","product_id":"subs.rmbl_19.99_365_0","entitlements":["all_access"],"version":"1.1.1"}
+      {"app_name":"Ramble","bundle_id":"com.bowery-digital.ramble","product_id":"subs.rmbl_19.99_365_0","entitlements":["all_access"],"version":"1.1.1"},
+      {"app_name":"PDFScanner","bundle_id":"pdf.scanner.reader.online.pro","product_id":"weekly_f3_699_scanner","entitlements":["full_access"],"version":"2.7.76"},
+      {"app_name":"GeniusScan","bundle_id":"com.geniussoftware.GeniusScan","product_id":"com.thegrizzlylabs.geniusscan.geniuscloud.subscription.year.1","entitlements":["ultra"],"version":"7.22"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
