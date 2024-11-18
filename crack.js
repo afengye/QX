@@ -51,7 +51,9 @@ if(typeof $response == "undefined") {
       {"app_name":"PDFScanner","bundle_id":"pdf.scanner.reader.online.pro","product_id":"weekly_f3_699_scanner","entitlements":["full_access"],"version":"2.7.76"},
       {"app_name":"GeniusScan","bundle_id":"com.geniussoftware.GeniusScan","product_id":"com.thegrizzlylabs.geniusscan.geniuscloud.subscription.year.1","entitlements":["ultra"],"version":"7.22"},
       {"app_name":"Gymnotize","bundle_id":"com.gymnotize","product_id":"com.gymnotize.upgrade.pro.subscription.annual","entitlements":["rc.gymnotize.pro.subscription"],"version":"9.2.62"},
-      {"app_name":"XS%20VPN","bundle_id":"com.xsvpn.free.turbofast","product_id":"xs_ios_yearly_sub_1","entitlements":["Premium"],"version":"2.6"}
+      {"app_name":"XS%20VPN","bundle_id":"com.xsvpn.free.turbofast","product_id":"xs_ios_yearly_sub_1","entitlements":["Premium"],"version":"2.6"},
+      {"app_name":"Goru","bundle_id":"com.ahmetserdarkaradeniz.Goru","product_id":"com.ahmetserdarkaradeniz.goruyearlyalternative","entitlements":["goru_pro"],"version":"1.6.1"},
+      {"app_name":"Pedometer","bundle_id":"com.crossforward.pedometer","product_id":"pedometer_annual_20","entitlements":["premium"],"version":"6.1"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
