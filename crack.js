@@ -53,7 +53,9 @@ if(typeof $response == "undefined") {
       {"app_name":"Gymnotize","bundle_id":"com.gymnotize","product_id":"com.gymnotize.upgrade.pro.subscription.annual","entitlements":["rc.gymnotize.pro.subscription"],"version":"9.2.62"},
       {"app_name":"XS%20VPN","bundle_id":"com.xsvpn.free.turbofast","product_id":"xs_ios_yearly_sub_1","entitlements":["Premium"],"version":"2.6"},
       {"app_name":"Goru","bundle_id":"com.ahmetserdarkaradeniz.Goru","product_id":"com.ahmetserdarkaradeniz.goruyearlyalternative","entitlements":["goru_pro"],"version":"1.6.1"},
-      {"app_name":"Pedometer","bundle_id":"com.crossforward.pedometer","product_id":"pedometer_annual_20","entitlements":["premium"],"version":"6.1"}
+      {"app_name":"Pedometer","bundle_id":"com.crossforward.pedometer","product_id":"pedometer_annual_20","entitlements":["premium"],"version":"6.1"},
+      {"app_name":"%E5%A4%A9%E6%B0%94%20%C2%B4","bundle_id":"maxime.maheo.simple-weather","product_id":"maxime.maheo.simpleweather.yearly","entitlements":["premium"],"version":"3.5.4"},
+      {"app_name":"ChatGPT","bundle_id":"com.prod.gpt","product_id":"com.prod.gpt.1y40","entitlements":["premium"],"version":"1.2.6"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
