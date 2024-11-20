@@ -8,7 +8,7 @@
 [rewrite_local]
 ^http:\/\/watermarking\.xitengtech\.cn\/api\/visitors\/sign-in url script-response-body https://raw.githubusercontent.com/afengye/QX/main/syxj3.js
 [mitm] 
-hostname = water-fv.jslynhapi.com
+hostname = watermarking.xitengtech.cn
 *******************************/
 let obj = JSON.parse($response.body);
 
