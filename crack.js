@@ -56,7 +56,9 @@ if(typeof $response == "undefined") {
       {"app_name":"Pedometer","bundle_id":"com.crossforward.pedometer","product_id":"pedometer_annual_20","entitlements":["premium"],"version":"6.1"},
       {"app_name":"%E5%A4%A9%E6%B0%94%20%C2%B4","bundle_id":"maxime.maheo.simple-weather","product_id":"maxime.maheo.simpleweather.yearly","entitlements":["premium"],"version":"3.5.4"},
       {"app_name":"ChatGPT","bundle_id":"com.prod.gpt","product_id":"com.prod.gpt.1y40","entitlements":["premium"],"version":"1.2.6"},
-      {"app_name":"Foodvisor","bundle_id":"com.foodvisor.Foodvisor","product_id":"com.foodvisor.Foodvisor.lifetime","entitlements":["coaching","daily_assessment","diet_article","full_access","journal","nutritional_facts","premium","recipe"],"version":"7.5.1"}
+      {"app_name":"Foodvisor","bundle_id":"com.foodvisor.Foodvisor","product_id":"com.foodvisor.Foodvisor.lifetime","entitlements":["coaching","daily_assessment","diet_article","full_access","journal","nutritional_facts","premium","recipe"],"version":"7.5.1"},
+      {"app_name":"Flow","bundle_id":"design.yugen.Flow","product_id":"design.yugen.Flow.Lifetime","entitlements":["pro"],"version":"3.8.2"},
+      {"app_name":"YouCanFocus2","bundle_id":"com.Bundulas.Vilius.youCanFocus.ios.project.YouCanFocus2","product_id":"yc_1299_all","entitlements":["Pro"],"version":"2.3.0"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
