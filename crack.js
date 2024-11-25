@@ -61,7 +61,8 @@ if(typeof $response == "undefined") {
       {"app_name":"YouCanFocus2","bundle_id":"com.Bundulas.Vilius.youCanFocus.ios.project.YouCanFocus2","product_id":"yc_1299_all","entitlements":["Pro"],"version":"2.3.0"},
       {"app_name":"quitnow","bundle_id":"com.eaginsoftware.QuitNow","product_id":"24q4_year","entitlements":["pro_features"],"version":"10.2.0"},
       {"app_name":"WeatherFit","bundle_id":"com.antonchuiko.wthrd","product_id":"com.antonchuiko.wthrd.premium_onetime","entitlements":["Pro"],"version":"6.12.3"},
-      {"app_name":"Focuskeeper","bundle_id":"com.limepresso.pomodorofree","product_id":"com.limepresso.pomodorofree.subscription.year","entitlements":["premium"],"version":"2.8.4"}
+      {"app_name":"Focuskeeper","bundle_id":"com.limepresso.pomodorofree","product_id":"com.limepresso.pomodorofree.subscription.year","entitlements":["premium"],"version":"2.8.4"},
+      {"app_name":"ClevCalc","bundle_id":"com.dencreak.dlcalculator","product_id":"com.dencreak.dlcalculator.iap.dlc_sub_premium.1y","entitlements":["Premium"],"version":"1.3.7"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
