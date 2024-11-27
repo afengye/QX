@@ -64,7 +64,9 @@ if(typeof $response == "undefined") {
       {"app_name":"Focuskeeper","bundle_id":"com.limepresso.pomodorofree","product_id":"com.limepresso.pomodorofree.subscription.year","entitlements":["premium"],"version":"2.8.4"},
       {"app_name":"ClevCalc","bundle_id":"com.dencreak.dlcalculator","product_id":"com.dencreak.dlcalculator.iap.dlc_sub_premium.1y","entitlements":["Premium"],"version":"1.3.7"},
       {"app_name":"Shift%20Days","bundle_id":"com.limepresso.shiftworkcalendar","product_id":"PRO1","entitlements":["premium"],"version":"1.90.14"},
-      {"app_name":"My%20Diary","bundle_id":"com.simpleinnovation.diary","product_id":"com.simpleinnovation.diary.premium.forever.base","entitlements":["Pro"],"version":"1.10.4"}
+      {"app_name":"My%20Diary","bundle_id":"com.simpleinnovation.diary","product_id":"com.simpleinnovation.diary.premium.forever.base","entitlements":["Pro"],"version":"1.10.4"},
+      {"app_name":"StrongVPN","bundle_id":"com.solutioncat.proxy.vpn","product_id":"com.solutioncat.proxy.vpn.master.oneYearNew","entitlements":["isPremium"],"version":"1.5.4"},
+      {"app_name":"Accountit","bundle_id":"DesignTech-SIA.Spendit","product_id":"DesignTech.SIA.Spendit.Plus.Lifetime","entitlements":["spenditPlus"],"version":"2.4.4"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
