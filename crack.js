@@ -66,7 +66,8 @@ if(typeof $response == "undefined") {
       {"app_name":"Shift%20Days","bundle_id":"com.limepresso.shiftworkcalendar","product_id":"PRO1","entitlements":["premium"],"version":"1.90.14"},
       {"app_name":"My%20Diary","bundle_id":"com.simpleinnovation.diary","product_id":"com.simpleinnovation.diary.premium.forever.base","entitlements":["Pro"],"version":"1.10.4"},
       {"app_name":"StrongVPN","bundle_id":"com.solutioncat.proxy.vpn","product_id":"com.solutioncat.proxy.vpn.master.oneYearNew","entitlements":["isPremium"],"version":"1.5.4"},
-      {"app_name":"Accountit","bundle_id":"DesignTech-SIA.Spendit","product_id":"DesignTech.SIA.Spendit.Plus.Lifetime","entitlements":["spenditPlus"],"version":"2.4.4"}
+      {"app_name":"Accountit","bundle_id":"DesignTech-SIA.Spendit","product_id":"DesignTech.SIA.Spendit.Plus.Lifetime","entitlements":["spenditPlus"],"version":"2.4.4"},
+      {"app_name":"Giftr","bundle_id":"com.Yooshr.Giftr","product_id":"com.Yooshr.Giftr.everythingForever","entitlements":["com.Yooshr.Giftr.subscriptionPremium"],"version":"2.2"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
