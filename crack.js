@@ -68,7 +68,8 @@ if(typeof $response == "undefined") {
       {"app_name":"StrongVPN","bundle_id":"com.solutioncat.proxy.vpn","product_id":"com.solutioncat.proxy.vpn.master.oneYearNew","entitlements":["isPremium"],"version":"1.5.4"},
       {"app_name":"Accountit","bundle_id":"DesignTech-SIA.Spendit","product_id":"DesignTech.SIA.Spendit.Plus.Lifetime","entitlements":["spenditPlus"],"version":"2.4.4"},
       {"app_name":"Giftr","bundle_id":"com.Yooshr.Giftr","product_id":"com.Yooshr.Giftr.everythingForever","entitlements":["com.Yooshr.Giftr.subscriptionPremium"],"version":"2.2"},
-      {"app_name":"FastConnectLite","bundle_id":"com.freefastconnect.vpn.lite","product_id":"com.freefastconnect.vpn.lite.monthly","entitlements":["pro"],"version":"1.0.4"}
+      {"app_name":"FastConnectLite","bundle_id":"com.freefastconnect.vpn.lite","product_id":"com.freefastconnect.vpn.lite.monthly","entitlements":["pro"],"version":"1.0.4"},
+      {"app_name":"CheckCalendar","bundle_id":"com.checkcalendar","product_id":"checkcalendar.610.lifetime","entitlements":["premium"],"version":"12.29.0"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
