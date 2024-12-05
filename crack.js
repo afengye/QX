@@ -72,7 +72,8 @@ if(typeof $response == "undefined") {
       {"app_name":"CheckCalendar","bundle_id":"com.checkcalendar","product_id":"checkcalendar.610.lifetime","entitlements":["premium"],"version":"12.29.0"},
       {"app_name":"HeartRateTracker","bundle_id":"com.mosin.heartrate","product_id":"com.mosin.heartrate.premiumNonConsumable","entitlements":["heart_premium"],"version":"2.0.20"},
       {"app_name":"CapCap","bundle_id":"in.capcap.app","product_id":"in.capcap.subscription.pro.weekly.non.trial","entitlements":["Pro"],"version":"1.5.5"},
-      {"app_name":"Teleprompter","bundle_id":"matekovacs.Teleprompter","product_id":"com.teleprompter.pro.annual","entitlements":["Teleprompter Pro"],"version":"7.0.1"}
+      {"app_name":"Teleprompter","bundle_id":"matekovacs.Teleprompter","product_id":"com.teleprompter.pro.annual","entitlements":["Teleprompter Pro"],"version":"7.0.1"},
+      {"app_name":"BRUSH","bundle_id":"com.DariaPletnova.BRUSH","product_id":"brs_3999_1y","entitlements":["pro"],"version":"2.1"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
