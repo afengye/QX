@@ -73,7 +73,9 @@ if(typeof $response == "undefined") {
       {"app_name":"HeartRateTracker","bundle_id":"com.mosin.heartrate","product_id":"com.mosin.heartrate.premiumNonConsumable","entitlements":["heart_premium"],"version":"2.0.20"},
       {"app_name":"CapCap","bundle_id":"in.capcap.app","product_id":"in.capcap.subscription.pro.weekly.non.trial","entitlements":["Pro"],"version":"1.5.5"},
       {"app_name":"Teleprompter","bundle_id":"matekovacs.Teleprompter","product_id":"com.teleprompter.pro.annual","entitlements":["Teleprompter Pro"],"version":"7.0.1"},
-      {"app_name":"BRUSH","bundle_id":"com.DariaPletnova.BRUSH","product_id":"brs_3999_1y","entitlements":["pro"],"version":"2.1"}
+      {"app_name":"BRUSH","bundle_id":"com.DariaPletnova.BRUSH","product_id":"brs_3999_1y","entitlements":["pro"],"version":"2.1"},
+      {"app_name":"Period%20Calendar","bundle_id":"com.lbrc.PeriodCalendar","product_id":"com.lbrc.PeriodCalendar.premium.forever","entitlements":["Pro"],"version":"10.7.4"},
+      {"app_name":"%E4%BD%93%E9%87%8D%E6%8C%87%E6%95%B0%E8%AE%A1%E7%AE%97%E5%99%A8","bundle_id":"net.smayer.bodydata","product_id":"RemoveAds","entitlements":["ad_free"],"version":"1.9.3"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
