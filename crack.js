@@ -77,7 +77,8 @@ if(typeof $response == "undefined") {
       {"app_name":"Period%20Calendar","bundle_id":"com.lbrc.PeriodCalendar","product_id":"com.lbrc.PeriodCalendar.premium.forever","entitlements":["Pro"],"version":"10.7.4"},
       {"app_name":"%E4%BD%93%E9%87%8D%E6%8C%87%E6%95%B0%E8%AE%A1%E7%AE%97%E5%99%A8","bundle_id":"net.smayer.bodydata","product_id":"RemoveAds","entitlements":["ad_free"],"version":"1.9.3"},
       {"app_name":"TapeKit","bundle_id":"com.widget-kid","product_id":"com.widgetkid.trialannual","entitlements":["com.widgetkid.unlimited"],"version":"2.10.0"},
-      {"app_name":"YPlayer","bundle_id":"net.duoziwei.yplayer","product_id":"net.duoziwei.yplayer.premium","entitlements":["Premium"],"version":"8.3"}
+      {"app_name":"YPlayer","bundle_id":"net.duoziwei.yplayer","product_id":"net.duoziwei.yplayer.premium","entitlements":["Premium"],"version":"8.3"},
+      {"app_name":"Overdue","bundle_id":"moshou.Overdue","product_id":"1","entitlements":["Pro"],"version":"5.5.1"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
