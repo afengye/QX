@@ -79,7 +79,8 @@ if(typeof $response == "undefined") {
       {"app_name":"TapeKit","bundle_id":"com.widget-kid","product_id":"com.widgetkid.trialannual","entitlements":["com.widgetkid.unlimited"],"version":"2.10.0"},
       {"app_name":"YPlayer","bundle_id":"net.duoziwei.yplayer","product_id":"net.duoziwei.yplayer.premium","entitlements":["Premium"],"version":"8.3"},
       {"app_name":"Overdue","bundle_id":"moshou.Overdue","product_id":"1","entitlements":["Pro"],"version":"5.5.1"},
-      {"app_name":"Tally","bundle_id":"com.rainbow.PlusOne","product_id":"tally.remove_ad","entitlements":["pro"],"version":"3.9.0"}
+      {"app_name":"Tally","bundle_id":"com.rainbow.PlusOne","product_id":"tally.remove_ad","entitlements":["pro"],"version":"3.9.0"},
+      {"app_name":"timetrack","bundle_id":"io.timetrack.ios","product_id":"io.timetrack.auto_renew.1","entitlements":["atimelogger-premium-month"],"version":"1.6.127"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
