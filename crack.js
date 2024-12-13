@@ -6,8 +6,8 @@
 使用声明：️仅供学习交流, 🈲️商业用途
 ********************************
 [rewrite_local]
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) url script-response-body https://raw.githubusercontent.com/afengye/QX/main/crack.js
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) url script-request-header https://raw.githubusercontent.com/afengye/QX/main/crack.js
+^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts$|subscribers\/.+$) url script-response-body https://raw.githubusercontent.com/afengye/QX/main/crack.js
+^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts$|subscribers\/.+$) url script-request-header https://raw.githubusercontent.com/afengye/QX/main/crack.js
 [mitm] 
 hostname = api.revenuecat.com
 *******************************/
@@ -80,7 +80,7 @@ if(typeof $response == "undefined") {
       {"app_name":"YPlayer","bundle_id":"net.duoziwei.yplayer","product_id":"net.duoziwei.yplayer.premium","entitlements":["Premium"],"version":"8.3"},
       {"app_name":"Overdue","bundle_id":"moshou.Overdue","product_id":"1","entitlements":["Pro"],"version":"5.5.1"},
       {"app_name":"Tally","bundle_id":"com.rainbow.PlusOne","product_id":"tally.remove_ad","entitlements":["pro"],"version":"3.9.0"},
-      {"app_name":"timetrack","bundle_id":"io.timetrack.ios","product_id":"io.timetrack.auto_renew.1","entitlements":["atimelogger-premium-month"],"version":"1.6.127"},
+      {"app_name":"timetrack","bundle_id":"io.timetrack.ios","product_id":"io.timetrack.auto_renew.1","entitlements":["atimelogger-premium-month"],"version":"1.6.128"},
       {"app_name":"Monefy","bundle_id":"com.monefyapp.monefy","product_id":"com.monefyapp.subscription.yearly.v2","entitlements":["monefy_premium"],"version":"1.5.1"},
       {"app_name":"HabitMinder","bundle_id":"","product_id":"habitminder.subscription.yearly.v2","entitlements":["habitminder_premium"],"version":"2.9.0"}
    ];  
