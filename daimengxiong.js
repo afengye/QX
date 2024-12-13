@@ -28,5 +28,4 @@ if($request.url.indexOf("/app/account/getAccountInfo") != -1) {
     ];
 }
 
-aFengYe = JSON.stringify(obj);
-$done(aFengYe);
+$done({body: JSON.stringify(obj)});
