@@ -25,5 +25,4 @@ for (let key in obj.data) {
   }
 }
 
-aFengYe = JSON.stringify(obj);
-$done(aFengYe);
+$done({body: JSON.stringify(obj)});
