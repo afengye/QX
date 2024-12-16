@@ -84,7 +84,8 @@ if(typeof $response == "undefined") {
       {"app_name":"Monefy","bundle_id":"com.monefyapp.monefy","product_id":"com.monefyapp.subscription.yearly.v2","entitlements":["monefy_premium"],"version":"1.5.1"},
       {"app_name":"HabitMinder","bundle_id":"","product_id":"habitminder.subscription.yearly.v2","entitlements":["habitminder_premium"],"version":"2.9.0"},
       {"app_name":"pixel_me_tokyo","bundle_id":"sato.tokyo.pixel-me","product_id":"pm_usd499_0d0","entitlements":["pro"],"version":"4.7.1"},
-      {"app_name":"Calflow","bundle_id":"kike.Calflow","product_id":"kike.calflow.pro.lifetime","entitlements":["pro"],"version":"1.7.6"}
+      {"app_name":"Calflow","bundle_id":"kike.Calflow","product_id":"kike.calflow.pro.lifetime","entitlements":["pro"],"version":"1.7.6"},
+      {"app_name":"HealthView","bundle_id":"com.funnmedia.HealthMinder","product_id":"com.funnmedia.HealthMinder.subscription.yearly.v2","entitlements":["healthview_premium"],"version":"3.9.0"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
