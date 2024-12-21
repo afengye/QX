@@ -88,7 +88,8 @@ if(typeof $response == "undefined") {
       {"app_name":"HealthView","bundle_id":"com.funnmedia.HealthMinder","product_id":"com.funnmedia.HealthMinder.subscription.yearly.v2","entitlements":["healthview_premium"],"version":"3.9.0"},
       {"app_name":"Strides","bundle_id":"com.puresignal.strides","product_id":"LifetimePlan","entitlements":["plus"],"version":"17.3"},   
       {"app_name":"TimerPlus","bundle_id":"com.minimasoftware.TimerPlus","product_id":"tp_pro_lifetime","entitlements":["pro"],"version":"2.29.1"},
-      {"app_name":"Cheatsheet","bundle_id":"com.overdesigned.Cheatsheet","product_id":"pro_lifetime","entitlements":["pro"],"version":"5.0.2"}
+      {"app_name":"Cheatsheet","bundle_id":"com.overdesigned.Cheatsheet","product_id":"pro_lifetime","entitlements":["pro"],"version":"5.0.2"},
+      {"app_name":"fastdiet","bundle_id":"com.happy.fastdiet","product_id":"com.happy.fastdiet.forever","entitlements":["premium"],"version":"1.3.7"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
