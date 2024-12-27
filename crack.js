@@ -93,7 +93,9 @@ if(typeof $response == "undefined") {
       {"app_name":"%E7%A7%A9%E5%BA%8F%E7%9B%AE%E6%A0%87","bundle_id":"com.metaorder.OKRTomato","product_id":"com.metaorder.OKRTomato.vip.supremacy","entitlements":["pro"],"version":"3.4.5"},
       {"app_name":"js_code_pad","bundle_id":"com.markodevcic.js-code-pad","product_id":"js_code_pad_developer_upgrade","entitlements":["developer"],"version":"1.8.5"},
       {"app_name":"Quitzilla","bundle_id":"com.despdevs.quitzilla","product_id":"com.despdevs.quitzilla.sub1y","entitlements":["premium"],"version":"1.2"},
-      {"app_name":"money_manager","bundle_id":"com.happy.moneyManager","product_id":"com.happy.money.forever","entitlements":["premium"],"version":"1.2.9"}
+      {"app_name":"money_manager","bundle_id":"com.happy.moneyManager","product_id":"com.happy.money.forever","entitlements":["premium"],"version":"1.2.9"},
+      {"app_name":"G%20E%20I%20S%20T","bundle_id":"com.memorado.app","product_id":"com.memorado.subscription.yearly.v1","entitlements":["memorado_premium"],"version":"7.7.0"},
+      {"app_name":"IntervalTimer","bundle_id":"com.simpleinnovation.timer.interval","product_id":"com.simpleinnovation.timer.interval.pro.forever.discount25","entitlements":["pro"],"version":"1.7.1"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
