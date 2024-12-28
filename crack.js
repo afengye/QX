@@ -95,7 +95,9 @@ if(typeof $response == "undefined") {
       {"app_name":"Quitzilla","bundle_id":"com.despdevs.quitzilla","product_id":"com.despdevs.quitzilla.sub1y","entitlements":["premium"],"version":"1.2"},
       {"app_name":"money_manager","bundle_id":"com.happy.moneyManager","product_id":"com.happy.money.forever","entitlements":["premium"],"version":"1.2.9"},
       {"app_name":"G%20E%20I%20S%20T","bundle_id":"com.memorado.app","product_id":"com.memorado.subscription.yearly.v1","entitlements":["memorado_premium"],"version":"7.7.0"},
-      {"app_name":"IntervalTimer","bundle_id":"com.simpleinnovation.timer.interval","product_id":"com.simpleinnovation.timer.interval.pro.forever.discount25","entitlements":["pro"],"version":"1.7.1"}
+      {"app_name":"IntervalTimer","bundle_id":"com.simpleinnovation.timer.interval","product_id":"com.simpleinnovation.timer.interval.pro.forever.discount25","entitlements":["pro"],"version":"1.7.1"},
+      {"app_name":"YetiVpn","bundle_id":"com.yetivpn.mastersecure.bestvpnproxy","product_id":"yetipro.yearly","entitlements":["Yeti Pro Subscription"],"version":"1.0.34"},
+      {"app_name":"Penbook02","bundle_id":"camp.user.penbook","product_id":"penbook.lifetime.2024.12.C","entitlements":["proLoyalty"],"version":"6.8.3"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
