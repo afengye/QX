@@ -97,7 +97,9 @@ if(typeof $response == "undefined") {
       {"app_name":"G%20E%20I%20S%20T","bundle_id":"com.memorado.app","product_id":"com.memorado.subscription.yearly.v1","entitlements":["memorado_premium"],"version":"7.7.0"},
       {"app_name":"IntervalTimer","bundle_id":"com.simpleinnovation.timer.interval","product_id":"com.simpleinnovation.timer.interval.pro.forever.discount25","entitlements":["pro"],"version":"1.7.1"},
       {"app_name":"YetiVpn","bundle_id":"com.yetivpn.mastersecure.bestvpnproxy","product_id":"yetipro.yearly","entitlements":["Yeti Pro Subscription"],"version":"1.0.34"},
-      {"app_name":"Penbook02","bundle_id":"camp.user.penbook","product_id":"penbook.lifetime.2024.12.C","entitlements":["proLoyalty"],"version":"6.8.3"}
+      {"app_name":"Penbook02","bundle_id":"camp.user.penbook","product_id":"penbook.lifetime.2024.12.C","entitlements":["proLoyalty"],"version":"6.8.3"},
+      {"app_name":"%E6%9E%81%E7%AE%80%E6%97%B6%E9%92%9F","bundle_id":"com.mad.FlipClock","product_id":"com.mad.zenflipclock.iap.buymeacoffee","entitlements":["pro"],"version":"4.6.4"},
+      {"app_name":"PDF%20Converter%20Swift","bundle_id":"com.pdf.converter.editor.jpgtopdf.maker","product_id":"pdf.converter.pro.lifetime","entitlements":["pdf.converter.pro.lifetime"],"version":"1.0.54"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
