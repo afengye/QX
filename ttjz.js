@@ -12,14 +12,18 @@ hostname = gs.gateway.gameley.cn
 *******************************/
 let obj = JSON.parse($response.body);
 
-obj.info.user = {
-   ...obj.info.user,
-   "visitVipForever": true,
-   "visitVipBoolean": true,
-   "normalVipBoolean": true,
-   "normalVipForever": true,
-   "adVipBoolean": true,
-   "adVipForever": true,
+if($request.url.indexOf("/user\/refresh\/token") != -1){
+  obj.info.user = {
+    ...obj.info.user,
+    "visitVipForever": true,
+    "visitVipBoolean": true,
+    "normalVipBoolean": true,
+    "normalVipForever": true,
+    "adVipBoolean": true,
+    "adVipForever": true,
+  }
+}else{
+   obj.info.openVos = [];
 }
 
 $done({body: JSON.stringify(obj)});
