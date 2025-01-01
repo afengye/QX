@@ -102,7 +102,9 @@ if(typeof $response == "undefined") {
       {"app_name":"PDF%20Converter%20Swift","bundle_id":"com.pdf.converter.editor.jpgtopdf.maker","product_id":"pdf.converter.pro.lifetime","entitlements":["pdf.converter.pro.lifetime"],"version":"1.0.54"},
       {"app_name":"Tidur%20Timers","bundle_id":"net.voidstern.multitimer","product_id":"net.voidstern.multitimer.yearly","entitlements":["Pro"],"version":"5.5.5"},
       {"app_name":"Thiro","bundle_id":"io.github.ctlvie.atelerix","product_id":"atelerix_pro_lifetime","entitlements":["pro"],"version":"1.3.12"},
-      {"app_name":"PROVPN","bundle_id":"com.adpsafe.provpnwebshield","product_id":"com.provpn.year","entitlements":["pro"],"version":"2.0.1"}
+      {"app_name":"PROVPN","bundle_id":"com.adpsafe.provpnwebshield","product_id":"com.provpn.year","entitlements":["pro"],"version":"2.0.1"},
+      {"app_name":"RunKit","bundle_id":"com.qeezon.RunKit","product_id":"runkit_19.99_1y","entitlements":["Premium"],"version":"1.24"},
+      {"app_name":"Fiery%20Feeds","bundle_id":"net.voidstern.fiery-feeds","product_id":"net.voidstern.fieryfeeds.yearly.trial","entitlements":["com.fieryfeeds.pro"],"version":"2.12.5"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
