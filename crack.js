@@ -106,7 +106,8 @@ if(typeof $response == "undefined") {
       {"app_name":"RunKit","bundle_id":"com.qeezon.RunKit","product_id":"runkit_19.99_1y","entitlements":["Premium"],"version":"1.24"},
       {"app_name":"Fiery%20Feeds","bundle_id":"net.voidstern.fiery-feeds","product_id":"net.voidstern.fieryfeeds.yearly.trial","entitlements":["com.fieryfeeds.pro"],"version":"2.12.5"},
       {"app_name":"Focused%20iOS","bundle_id":"net.voidstern.focused","product_id":"net.voidstern.focused.yearly.trial","entitlements":["Pro"],"version":"1.9.2"},
-      {"app_name":"Any%20IPTV%20Player","bundle_id":"com.anyiptvplayer.cihan","product_id":"lifetimepremium","entitlements":["premium"],"version":"6.9.7"}
+      {"app_name":"Any%20IPTV%20Player","bundle_id":"com.anyiptvplayer.cihan","product_id":"lifetimepremium","entitlements":["premium"],"version":"6.9.7"},
+      {"app_name":"WordBoard","bundle_id":"net.bytesize.wordboard","product_id":"net.bytesize.wordboard.iap.pro","entitlements":["pro"],"version":"6.5.1"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
