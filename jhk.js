@@ -11,3 +11,16 @@
 [mitm] 
 hostname = prod.jiahk.cn
 *******************************/
+let obj = JSON.parse($response.body);
+
+obj.data = {
+  ...obj.data,
+  "isVip" : true,
+  "superVipEndTime" : 32472115200,
+  "superMemberCardId" : 14,
+  "subscribe" : true,
+  "buttonText" : "已开通会员",
+  "title" : "加画框终身会员"
+}
+
+$done({body: JSON.stringify(obj)});
