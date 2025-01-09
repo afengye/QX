@@ -109,7 +109,8 @@ if(typeof $response == "undefined") {
       {"app_name":"Any%20IPTV%20Player","bundle_id":"com.anyiptvplayer.cihan","product_id":"lifetimepremium","entitlements":["premium"],"version":"6.9.7"},
       {"app_name":"WordBoard","bundle_id":"net.bytesize.wordboard","product_id":"net.bytesize.wordboard.iap.pro","entitlements":["pro"],"version":"6.5.1"},
       {"app_name":"HabitDone","bundle_id":"com.dison.HabitDone","product_id":"Lifetime","entitlements":["pro"],"version":"3.1.2"},
-      {"app_name":"Hydro%20Coach","bundle_id":"com.codium.hydrocoach","product_id":"hc_pro_lifetime","entitlements":["pro"],"version":"1.0.10"}
+      {"app_name":"Hydro%20Coach","bundle_id":"com.codium.hydrocoach","product_id":"hc_pro_lifetime","entitlements":["pro"],"version":"1.0.10"},
+      {"app_name":"Planny","bundle_id":"com.kevinreutter.Artemis","product_id":"com.kevinreutter.Artemis.PremiumLifetime","entitlements":["Premium"],"version":"10.0.17"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
