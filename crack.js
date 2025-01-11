@@ -110,7 +110,8 @@ if(typeof $response == "undefined") {
       {"app_name":"WordBoard","bundle_id":"net.bytesize.wordboard","product_id":"net.bytesize.wordboard.iap.pro","entitlements":["pro"],"version":"6.5.1"},
       {"app_name":"HabitDone","bundle_id":"com.dison.HabitDone","product_id":"Lifetime","entitlements":["pro"],"version":"3.1.2"},
       {"app_name":"Hydro%20Coach","bundle_id":"com.codium.hydrocoach","product_id":"hc_pro_lifetime","entitlements":["pro"],"version":"1.0.10"},
-      {"app_name":"Planny","bundle_id":"com.kevinreutter.Artemis","product_id":"com.kevinreutter.Artemis.PremiumLifetime","entitlements":["Premium"],"version":"10.0.17"}
+      {"app_name":"Planny","bundle_id":"com.kevinreutter.Artemis","product_id":"com.kevinreutter.Artemis.PremiumLifetime","entitlements":["Premium"],"version":"10.0.17"},
+      {"app_name":"%E8%A8%80%E5%A4%96%E7%AC%94%E8%AE%B0","bundle_id":"io.innerpeace.yiye","product_id":"io.innerpeace.yiye.lifetime.forYearly","entitlements":["Lifetime","Premium"],"version":"2.18.7"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
