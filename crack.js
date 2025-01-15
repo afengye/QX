@@ -114,7 +114,8 @@ if(typeof $response == "undefined") {
       {"app_name":"%E8%A8%80%E5%A4%96%E7%AC%94%E8%AE%B0","bundle_id":"io.innerpeace.yiye","product_id":"io.innerpeace.yiye.lifetime.forYearly","entitlements":["Lifetime","Premium"],"version":"2.18.7"},
       {"app_name":"Persona","bundle_id":"com.tickettothemoon.video.persona","product_id":"com.tickettothemoon.video.persona.vip.inab3.one.time.195","entitlements":["unlimited"],"version":"1.11.22"},
       {"app_name":"Foca","bundle_id":"com.foca-2020.foca","product_id":"lifetime_purchase_macOS_1.0","entitlements":["Pro"],"version":"1.3.0"},
-      {"app_name":"AIChat","bundle_id":"com.talgat.AIChat","product_id":"com.talgat.AIChat.year","entitlements":["FullAccess"],"version":"1.92"}
+      {"app_name":"AIChat","bundle_id":"com.talgat.AIChat","product_id":"com.talgat.AIChat.year","entitlements":["FullAccess"],"version":"1.92"},
+      {"app_name":"vpn","bundle_id":"us.ultrasurf.vpn","product_id":"ultrasurf_yearly","entitlements":["pro"],"version":"2.2"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
