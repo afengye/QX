@@ -115,7 +115,8 @@ if(typeof $response == "undefined") {
       {"app_name":"Persona","bundle_id":"com.tickettothemoon.video.persona","product_id":"com.tickettothemoon.video.persona.vip.inab3.one.time.195","entitlements":["unlimited"],"version":"1.11.22"},
       {"app_name":"Foca","bundle_id":"com.foca-2020.foca","product_id":"lifetime_purchase_macOS_1.0","entitlements":["Pro"],"version":"1.3.0"},
       {"app_name":"AIChat","bundle_id":"com.talgat.AIChat","product_id":"com.talgat.AIChat.year","entitlements":["FullAccess"],"version":"1.92"},
-      {"app_name":"vpn","bundle_id":"us.ultrasurf.vpn","product_id":"ultrasurf_yearly","entitlements":["pro"],"version":"2.2"}
+      {"app_name":"vpn","bundle_id":"us.ultrasurf.vpn","product_id":"ultrasurf_yearly","entitlements":["pro"],"version":"2.2"},
+      {"app_name":"AMood","bundle_id":"HengYi.AMood","product_id":"1001","entitlements":["pro"],"version":"2.9.8"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
