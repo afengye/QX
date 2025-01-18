@@ -118,7 +118,8 @@ if(typeof $response == "undefined") {
       {"app_name":"vpn","bundle_id":"us.ultrasurf.vpn","product_id":"ultrasurf_yearly","entitlements":["pro"],"version":"2.2"},
       {"app_name":"AMood","bundle_id":"HengYi.AMood","product_id":"1001","entitlements":["pro"],"version":"2.9.8"},
       {"app_name":"Kylin","bundle_id":"lan.kylin","product_id":"pro_life","entitlements":["pro"],"version":"1.27.5"},
-      {"app_name":"OneBox","bundle_id":"","product_id":"com.ziheng.pandora.lifetime","entitlements":["all"],"version":"2.2.1"}
+      {"app_name":"OneBox","bundle_id":"","product_id":"com.ziheng.pandora.lifetime","entitlements":["all"],"version":"2.2.1"},
+      {"app_name":"Echo","bundle_id":"com.LEMO.LemoFM","product_id":"com.LEMO.LemoFm.plus.lifetime.11","entitlements":["Lifetime","PLUS"],"version":"1.11.1"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
