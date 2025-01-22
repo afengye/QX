@@ -22,7 +22,8 @@ if(typeof $response == "undefined") {
   if(body && body.subscriber) {
     let date = {"expires_date": "2999-01-01T00:00:00Z","original_purchase_date":"2021-01-01T00:00:00Z","purchase_date": "2021-01-01T00:00:00Z","ownership_type": "PURCHASED","store": "app_store"};
     let subscriber = body.subscriber;
-    let bundle_id = $request.headers["X-Client-Bundle-ID"]?$request.headers["X-Client-Bundle-ID"]:$request.headers["User-Agent"].match(/^[%a-zA-Z0-9]+/)[0];
+    const newObj = Object.fromEntries(Object.entries($request.headers).map(([k, v]) => [k.toLowerCase(), v]));
+    let bundle_id = newObj["x-client-bundle-id"]?newObj["x-client-bundle-id"]:newObj["user-agent"].match(/^[%a-zA-Z0-9]+/)[0];
     const list = [
       {"app_name":"Days","bundle_id":"net.mattdavenport.daysuntil","product_id":"net.mattdavenport.daysuntil.dayspremiumlifetime","entitlements":["premium","pro"],"version":"3.15"},
       {"app_name":"Diarly","bundle_id":"com.pureformstudio.diaryOSX","product_id":"com.pureformstudio.diary.yearly_2022_promo","entitlements":["PRO"],"version":"3.18"},
@@ -121,7 +122,8 @@ if(typeof $response == "undefined") {
       {"app_name":"OneBox","bundle_id":"","product_id":"com.ziheng.pandora.lifetime","entitlements":["all"],"version":"2.2.1"},
       {"app_name":"Echo","bundle_id":"com.LEMO.LemoFM","product_id":"com.LEMO.LemoFm.plus.lifetime.11","entitlements":["Lifetime","PLUS"],"version":"1.11.1"},
       {"app_name":"Aphrodite","bundle_id":"com.ziheng.aphrodite","product_id":"com.ziheng.aphrodite.lifetime","entitlements":["all"],"version":"2.0.7"},
-      {"app_name":"ArchiveList","bundle_id":"com.jy.ArchiveBox","product_id":"com.jy.ArchiveBox.pro_1","entitlements":["pro_life"],"version":"2.6.1"}
+      {"app_name":"ArchiveList","bundle_id":"com.jy.ArchiveBox","product_id":"com.jy.ArchiveBox.pro_1","entitlements":["pro_life"],"version":"2.6.1"},
+      {"app_name":"%E4%BA%BA%E7%94%9F%E6%B8%85%E5%8D%95","bundle_id":"com.metaorder.LifeList","product_id":"com.metaorder.lifelist.premium","entitlements":["premium","pro"],"version":"2.2.3"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
