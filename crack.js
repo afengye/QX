@@ -123,7 +123,8 @@ if(typeof $response == "undefined") {
       {"app_name":"Echo","bundle_id":"com.LEMO.LemoFM","product_id":"com.LEMO.LemoFm.plus.lifetime.11","entitlements":["Lifetime","PLUS"],"version":"1.11.1"},
       {"app_name":"Aphrodite","bundle_id":"com.ziheng.aphrodite","product_id":"com.ziheng.aphrodite.lifetime","entitlements":["all"],"version":"2.0.7"},
       {"app_name":"ArchiveList","bundle_id":"com.jy.ArchiveBox","product_id":"com.jy.ArchiveBox.pro_1","entitlements":["pro_life"],"version":"2.6.1"},
-      {"app_name":"%E4%BA%BA%E7%94%9F%E6%B8%85%E5%8D%95","bundle_id":"com.metaorder.LifeList","product_id":"com.metaorder.lifelist.premium","entitlements":["premium","pro"],"version":"2.2.3"}
+      {"app_name":"%E4%BA%BA%E7%94%9F%E6%B8%85%E5%8D%95","bundle_id":"com.metaorder.LifeList","product_id":"com.metaorder.lifelist.premium","entitlements":["premium","pro"],"version":"2.2.3"},
+      {"app_name":"XCam","bundle_id":"com.miiiao.XCam","product_id":"com.miiiao.xcam.lifetime","entitlements":["pro"],"version":"1.40"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
