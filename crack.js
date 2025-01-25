@@ -125,7 +125,8 @@ if(typeof $response == "undefined") {
       {"app_name":"ArchiveList","bundle_id":"com.jy.ArchiveBox","product_id":"com.jy.ArchiveBox.pro_1","entitlements":["pro_life"],"version":"2.6.1"},
       {"app_name":"%E4%BA%BA%E7%94%9F%E6%B8%85%E5%8D%95","bundle_id":"com.metaorder.LifeList","product_id":"com.metaorder.lifelist.premium","entitlements":["premium","pro"],"version":"2.2.3"},
       {"app_name":"XCam","bundle_id":"com.miiiao.XCam","product_id":"com.miiiao.xcam.lifetime","entitlements":["pro"],"version":"1.40"},
-      {"app_name":"CountDuck","bundle_id":"co.countduck.app","product_id":"Lifetime","entitlements":["premium"],"version":"3.0.1"}
+      {"app_name":"CountDuck","bundle_id":"co.countduck.app","product_id":"Lifetime","entitlements":["premium"],"version":"3.0.1"},
+      {"app_name":"MySticker","bundle_id":"com.miiiao.MySticker","product_id":"com.miiiao.MySticker.lifetime","entitlements":["mysticker premium"],"version":"3.4"},
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
