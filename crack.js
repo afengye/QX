@@ -127,7 +127,9 @@ if(typeof $response == "undefined") {
       {"app_name":"XCam","bundle_id":"com.miiiao.XCam","product_id":"com.miiiao.xcam.lifetime","entitlements":["pro"],"version":"1.40"},
       {"app_name":"CountDuck","bundle_id":"co.countduck.app","product_id":"Lifetime","entitlements":["premium"],"version":"3.0.1"},
       {"app_name":"MySticker","bundle_id":"com.miiiao.MySticker","product_id":"com.miiiao.MySticker.lifetime","entitlements":["mysticker premium"],"version":"3.4"},
-      {"app_name":"%E7%94%BB%E5%8E%86","bundle_id":"com.bapaws.calendar","product_id":"com.bapaws.calendar.lifetime","entitlements":["pro"],"version":"1.7.8"}
+      {"app_name":"%E7%94%BB%E5%8E%86","bundle_id":"com.bapaws.calendar","product_id":"com.bapaws.calendar.lifetime","entitlements":["pro"],"version":"1.7.8"},
+      {"app_name":"iHabit","bundle_id":"com.gostraight.iHabit","product_id":"ihabit_forever_payment_vip","entitlements":["ihabit_lTime_subscription","ihabit_subscription_pro"],"version":"1.0.25"},
+      {"app_name":"%E6%BA%AA%E6%B5%81","bundle_id":"com.donewin.brainwaves","product_id":"rive_premium_lifetime","entitlements":["rive_premium"],"version":"2.0.1"},
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
