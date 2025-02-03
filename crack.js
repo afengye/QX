@@ -135,7 +135,8 @@ if(typeof $response == "undefined") {
       {"app_name":"Yosum","bundle_id":"terrykuo.co.yosum","product_id":"terrykuo.co.yosum.premiummembership","entitlements":["Premium"],"version":"2.5.5"},
       {"app_name":"DHWaterMarkManager","bundle_id":"","product_id":"lifetimeVIP_001","entitlements":["vip"],"version":"1.2.2"},
       {"app_name":"ZenTime","bundle_id":"com.c2.applock.cloak","product_id":"com.c2.applock.cloak.lifetime","entitlements":["Pro"],"version":"1.1.5"},
-      {"app_name":"快制图表","bundle_id":"com.yong.quickChart","product_id":"qgnjs_lifetime","entitlements":["unlock all"],"version":"3.35.0"}
+      {"app_name":"快制图表","bundle_id":"com.yong.quickChart","product_id":"qgnjs_lifetime","entitlements":["unlock all"],"version":"3.35.0"},
+      {"app_name":"语音合成助手","bundle_id":"social.steet.TextToSpeech","product_id":"tts_1m","entitlements":["premium"],"version":"3.9.1"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
