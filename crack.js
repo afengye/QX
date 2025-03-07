@@ -140,7 +140,8 @@ if(typeof $response == "undefined") {
       {"app_name":"Record2Text","bundle_id":"skylar.app.Record2Text","product_id":"afi.recnote.pro","entitlements":["afi.recnote.pro"],"version":"8.5"},
       {"app_name":"pokenote","bundle_id":"com.migao.pokenote","product_id":"pokenote_pro","entitlements":["pro"],"version":"2.0.2"},
       {"app_name":"Watchly","bundle_id":"com.appexosolutions.watchface","product_id":"watchface.lifetime","entitlements":["lifetime"],"version":"2.3.5"},
-      {"app_name":"%E6%BB%B4%E7%AD%94%E6%97%B6%E9%92%9F","bundle_id":"com.do.flipclock","product_id":"lifetime_1","entitlements":["lifetime_1"],"version":"2.0.9"}
+      {"app_name":"%E6%BB%B4%E7%AD%94%E6%97%B6%E9%92%9F","bundle_id":"com.do.flipclock","product_id":"lifetime_1","entitlements":["lifetime_1"],"version":"2.0.9"},
+      {"app_name":"时间记录","bundle_id":"com.bapaws.Hours","product_id":"com.bapaws.Hours.lifetime","entitlements":["pro"],"version":"1.8.6"}
    ];  
    for(let data of list){
      if(bundle_id == data.bundle_id || bundle_id == data.app_name){
