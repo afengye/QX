@@ -13,7 +13,7 @@ if(!fyAppId || fyAppId != appId) {
   $.setdata(appId, "fyAppId"); 
   $.setjson(null, "fyMapping");
 }else if(!mappingInfo) {
-   console.log("未获取到entitlements参数，\n尝试脚本开启 重复进入 退出软件。\n尝试3次都没有成功 则表示获取失败❌");
+   console.log("未获取到entitlements参数，\n尝试脚本开启 重复进入 退出软件。\n尝试3次都没有成功 则表示获取失败 关闭脚本即可❌");
 }
 
 delete $request.headers["x-revenuecat-etag"];
