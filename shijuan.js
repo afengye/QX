@@ -6,7 +6,7 @@
 使用声明：️仅供学习交流, 🈲️商业用途
 *******************************
 [rewrite_local]
-^https:\/\/appss\.baomingding\.com\/\/app\/account\/getAccountInfo url script-response-body https://raw.githubusercontent.com/afengye/QX/main/shijuan.js
+^https:\/\/appss\.baomingding\.com\/(\/)?app\/account\/getAccountInfo url script-response-body https://raw.githubusercontent.com/afengye/QX/main/shijuan.js
 [mitm] 
 hostname = appss.baomingding.com
 *******************************/
